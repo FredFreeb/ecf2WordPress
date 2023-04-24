@@ -1,0 +1,2580 @@
+# Translation of Plugins - WordPress Shortcodes Plugin — Shortcodes Ultimate - Stable (latest release) in Czech
+# This file is distributed under the same license as the Plugins - WordPress Shortcodes Plugin — Shortcodes Ultimate - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-12-25 20:23:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: Plugins - WordPress Shortcodes Plugin — Shortcodes Ultimate - Stable (latest release)\n"
+
+#: admin/class-shortcodes-ultimate-admin-about.php:13
+#: admin/class-shortcodes-ultimate-admin-about.php:14
+#: admin/class-shortcodes-ultimate-admin-about.php:64
+#: admin/partials/pages/settings.php:50
+msgid "About"
+msgstr "O projektu"
+
+#: includes/shortcodes/tabs.php:85 includes/shortcodes/tabs.php:195
+msgid "Tab title"
+msgstr "Název záložky"
+
+#: includes/shortcodes/box.php:76
+msgid "This is box title"
+msgstr "Toto je název boxu"
+
+#: includes/shortcodes/lightbox.php:63
+msgid "please specify correct source"
+msgstr "prosím upřesněte správný zdroj"
+
+#: includes/shortcodes/audio.php:65 includes/shortcodes/audio.php:77
+#: includes/shortcodes/dailymotion.php:137
+#: includes/shortcodes/dailymotion.php:144 includes/shortcodes/screenr.php:30
+#: includes/shortcodes/screenr.php:37 includes/shortcodes/video.php:98
+#: includes/shortcodes/video.php:106 includes/shortcodes/vimeo.php:102
+#: includes/shortcodes/vimeo.php:112
+#: includes/shortcodes/youtube-advanced.php:174
+#: includes/shortcodes/youtube-advanced.php:184
+#: includes/shortcodes/youtube.php:89 includes/shortcodes/youtube.php:99
+msgid "please specify correct url"
+msgstr "prosím upřesněte správné URL"
+
+#: includes/shortcodes/menu.php:52
+msgid "This menu doesn't exists, or has no elements"
+msgstr "Toto menu neexistuje nebo nemá žádné prvky"
+
+#: includes/shortcodes/carousel.php:259
+#: includes/shortcodes/custom-gallery.php:165
+#: includes/shortcodes/image-carousel.php:236
+#: includes/shortcodes/slider.php:241
+msgid "images not found"
+msgstr "obrázky nenalezeny"
+
+#: includes/shortcodes/meta.php:67
+msgid "post ID is incorrect"
+msgstr "ID článku je nesprávné"
+
+#: includes/shortcodes/meta.php:71
+msgid "please specify meta key name"
+msgstr "prosíme upřesněte název meta klíče"
+
+#: includes/shortcodes/template.php:29
+msgid "please specify template name"
+msgstr "prosím upřesněte jméno šablony"
+
+#: admin/class-shortcodes-ultimate-admin-settings.php:122
+msgid "Custom formatting"
+msgstr "Vlastní formátování"
+
+#: admin/class-shortcodes-ultimate-admin-settings.php:111
+msgid "Shortcodes prefix"
+msgstr "Předpona shortkódů"
+
+#: includes/shortcodes/lightbox-content.php:30
+#: includes/shortcodes/lightbox-content.php:40
+#: includes/shortcodes/lightbox-content.php:50
+msgid "Examples"
+msgstr "Příklady"
+
+#: admin/partials/widget/form.php:3 includes/deprecated/class-su-widget.php:49
+msgid "Title:"
+msgstr "Nadpis:"
+
+#: includes/functions-galleries.php:292
+msgid "Slide link"
+msgstr "Odkaz snímku"
+
+#: includes/functions-galleries.php:298
+msgid "Use this field to add custom links to slides used with Slider, Carousel and Custom Gallery shortcodes"
+msgstr "Použijte toto pole k přidání vlastních odkazů k snímkům v shortkódech slideru, karuselu a vlastní galerii"
+
+#: includes/partials/shortcodes/posts/templates/default-loop.php:35
+#: includes/partials/shortcodes/posts/templates/single-post.php:28
+msgid "Posted"
+msgstr "Publikováno"
+
+#: includes/partials/shortcodes/posts/templates/default-loop.php:43
+#: includes/partials/shortcodes/posts/templates/single-post.php:33
+msgid "0 comments"
+msgstr "Žádný komentář"
+
+#: includes/partials/shortcodes/posts/templates/default-loop.php:43
+#: includes/partials/shortcodes/posts/templates/single-post.php:33
+msgid "1 comment"
+msgstr "1 komentář"
+
+#: includes/partials/shortcodes/posts/templates/single-post.php:33
+msgid "%n comments"
+msgstr "%n komentáře"
+
+#: includes/partials/shortcodes/posts/templates/default-loop.php:51
+#: includes/partials/shortcodes/posts/templates/list-loop.php:32
+#: includes/partials/shortcodes/posts/templates/single-post.php:45
+#: includes/partials/shortcodes/posts/templates/teaser-loop.php:35
+msgid "Posts not found"
+msgstr "Články nenalezeny"
+
+#: admin/class-shortcodes-ultimate-widget.php:15
+#: includes/deprecated/class-su-widget.php:8
+msgid "Shortcodes Ultimate widget"
+msgstr "Shortcodes Ultimate widget"
+
+#: inc/core/generator-views.php:100 inc/core/generator-views.php:105
+msgid "Media manager"
+msgstr "Správce médií"
+
+#: includes/shortcodes/audio.php:43
+msgid "Custom audio player"
+msgstr "Vlastní audiopřehrávač"
+
+#: includes/shortcodes/video.php:16
+msgid "Url to mp4/flv video-file"
+msgstr "URL mp4/flv video-souboru"
+
+#: includes/shortcodes/video.php:21
+msgid "Poster"
+msgstr "Poster"
+
+#: includes/shortcodes/video.php:22
+msgid "Url to poster image, that will be shown before playback"
+msgstr "URL obrázku posteru, který se zobrazí před přehráním videa"
+
+#: includes/shortcodes/video.php:28
+msgid "Player title"
+msgstr "Název přehrávače"
+
+#: includes/shortcodes/video.php:52
+msgid "Show player controls (play/pause etc.) or not"
+msgstr "Ukázat ovládací tlačítka přehrávače (hrát/pauza apod.) nebo ne"
+
+#: includes/shortcodes/video.php:73
+msgid "Custom video player"
+msgstr "Vlastní videopřehrávač"
+
+#: includes/shortcodes/table.php:8
+msgid "Table"
+msgstr "Tabulka"
+
+#: includes/shortcodes/table.php:39
+msgid ""
+"<table>\n"
+"<tr>\n"
+"\t<td>Table</td>\n"
+"\t<td>Table</td>\n"
+"</tr>\n"
+"<tr>\n"
+"\t<td>Table</td>\n"
+"\t<td>Table</td>\n"
+"</tr>\n"
+"</table>"
+msgstr ""
+"<table>\n"
+"<tr>\n"
+"\t<td>Tabulka</td>\n"
+"\t<td>Tabulka</td>\n"
+"</tr>\n"
+"<tr>\n"
+"\t<td>Tabulka</td>\n"
+"\t<td>Tabulka</td>\n"
+"</tr>\n"
+"</table>"
+
+#: includes/shortcodes/permalink.php:8
+msgid "Permalink"
+msgstr "Odkaz"
+
+#: includes/shortcodes/permalink.php:15
+msgid "Post or page ID"
+msgstr "ID článku či stránky"
+
+#: includes/shortcodes/permalink.php:45
+msgid "Permalink to specified post/page"
+msgstr "Odkaz na specifickou stránku/článek"
+
+#: includes/shortcodes/members.php:8
+msgid "Members"
+msgstr "Členové"
+
+#: includes/shortcodes/members.php:13
+msgid "This content is for registered users only. Please %login%."
+msgstr "Tento obsah je určen pouze registrovaným uživatelům. Prosíme přihlašte se: %login%."
+
+#: includes/shortcodes/members.php:14
+msgid "Message"
+msgstr "Zpráva"
+
+#: includes/shortcodes/members.php:15
+msgid "Message for not logged users"
+msgstr "Zpráva pro nepřihlášené návštěvníky"
+
+#: includes/shortcodes/members.php:20
+msgid "Box color"
+msgstr "Barva boxu"
+
+#: includes/shortcodes/members.php:21
+msgid "This color will applied only to box for not logged users"
+msgstr "Tato barva boxu se zobrazí pouze nepřihlášeným uživatelům"
+
+#: includes/shortcodes/members.php:24
+msgid "login"
+msgstr "přihlášení"
+
+#: includes/shortcodes/members.php:25
+msgid "Login link text"
+msgstr "Text odkazu přihlášení"
+
+#: includes/shortcodes/members.php:26
+msgid "Text for the login link"
+msgstr "Text odkazu pro přihlášení "
+
+#: includes/shortcodes/members.php:30 includes/shortcodes/members.php:31
+msgid "Login link url"
+msgstr "URL přihlášení"
+
+#: includes/shortcodes/members.php:40
+msgid "Content for logged members"
+msgstr "Obsah pro přihlášené návštěvníky"
+
+#: includes/shortcodes/members.php:41
+msgid "Content for logged in members only"
+msgstr "Obsah jenom pro přihlášené návštěvníky"
+
+#: includes/shortcodes/guests.php:8
+msgid "Guests"
+msgstr "Hosté"
+
+#: includes/shortcodes/guests.php:20
+msgid "Content for guests only"
+msgstr "Obsah jenom pro hosty"
+
+#: includes/shortcodes/feed.php:8
+msgid "RSS feed"
+msgstr "RSS kanál"
+
+#: includes/shortcodes/feed.php:25
+msgid "Number of items to show"
+msgstr "Počet položek, které se ukážou"
+
+#: includes/shortcodes/menu.php:15
+msgid "Menu name"
+msgstr "Jméno menu"
+
+#: includes/shortcodes/menu.php:16
+msgid "Custom menu name. Ex: Main menu"
+msgstr "Vlastní název menu. Např. Hlavní menu"
+
+#: includes/shortcodes/menu.php:25
+msgid "Custom menu by name"
+msgstr "Vlastní menu pode jména"
+
+#: includes/shortcodes/subpages.php:8
+msgid "Sub pages"
+msgstr "Podstránky"
+
+#: includes/shortcodes/siblings.php:16 includes/shortcodes/subpages.php:16
+msgid "Depth"
+msgstr "Hloubka"
+
+#: includes/shortcodes/subpages.php:17
+msgid "Max depth level of children pages"
+msgstr "Maximální hloubk úrovní podstránek"
+
+#: includes/shortcodes/subpages.php:22
+msgid "Parent ID"
+msgstr "ID nadřazené stránky"
+
+#: includes/shortcodes/subpages.php:23
+msgid "ID of the parent page. Leave blank to use current page"
+msgstr "ID nadřazené stránky. Pro zobrazení aktuální stránky nechte prázdné"
+
+#: includes/shortcodes/subpages.php:32
+msgid "List of sub pages"
+msgstr "Seznam podstránek"
+
+#: includes/shortcodes/siblings.php:8
+msgid "Siblings"
+msgstr "Stránky stejné úrovně"
+
+#: includes/shortcodes/siblings.php:17
+msgid "Max depth level"
+msgstr "Úroveň max. hloubky"
+
+#: includes/shortcodes/siblings.php:26
+msgid "List of cureent page siblings"
+msgstr "Seznam aktuálních stránek stejné úrovně"
+
+#: includes/shortcodes/document.php:9
+msgid "Document"
+msgstr "Dokument"
+
+#: includes/shortcodes/document.php:17
+msgid "Url to uploaded document. Supported formats: doc, xls, pdf etc."
+msgstr "URL uploadovaného dokumentu. podporované formáty: doc, xls, pdf apod."
+
+#: includes/shortcodes/document.php:26
+msgid "Viewer width"
+msgstr "Šířka prohlížeče"
+
+#: includes/shortcodes/document.php:35
+msgid "Viewer height"
+msgstr "Výška prohlížeče"
+
+#: includes/shortcodes/document.php:41
+msgid "Ignore width and height parameters and make viewer responsive"
+msgstr "Ignorovat parametry výšky a šířky - prohlížeč bude responzivní"
+
+#: includes/shortcodes/document.php:55
+msgid "Document viewer by Google"
+msgstr "Prohlížeč dokumentů od Googlu"
+
+#: includes/shortcodes/gmap.php:19
+msgid "Map width"
+msgstr "Šířka mapy"
+
+#: includes/shortcodes/gmap.php:28
+msgid "Map height"
+msgstr "Výška mapy"
+
+#: includes/shortcodes/gmap.php:34
+msgid "Ignore width and height parameters and make map responsive"
+msgstr "Ignorovat  šířku a výšku mapy a učinit tak mapu responzivní"
+
+#: includes/shortcodes/gmap.php:39
+msgid "Marker"
+msgstr "Značka"
+
+#: includes/shortcodes/gmap.php:40
+msgid "Address for the marker. You can type it in any language"
+msgstr "Adresa značky (může být v kterémkoli jazyce)."
+
+#: includes/shortcodes/gmap.php:63
+msgid "Maps by Google"
+msgstr "Google mapy"
+
+#: includes/shortcodes/carousel.php:22
+#: includes/shortcodes/custom-gallery.php:15 includes/shortcodes/slider.php:22
+msgid "Source"
+msgstr "Zdroj"
+
+#: includes/shortcodes/carousel.php:23
+#: includes/shortcodes/custom-gallery.php:16 includes/shortcodes/slider.php:23
+msgid "Choose images source. You can use images from Media library or retrieve it from posts (thumbnails) posted under specified blog category. You can also pick any custom taxonomy"
+msgstr "Vyberte zdroj obrázků. Můžete použí obrázky ze Správce médií nebo je získat z článků (náhledové obr.) publikovaných pod určitou kategorií. Můžete také vybrat jakoukoli vlastní taxonomii"
+
+#: includes/shortcodes/carousel.php:32
+#: includes/shortcodes/custom-gallery.php:25 includes/shortcodes/slider.php:32
+msgid "Maximum number of image source posts (for recent posts, category and custom taxonomy)"
+msgstr "Maximální počet obrázků z článků (pro nejnovější články, kategorii a vlastní taxonomii)"
+
+#: includes/shortcodes/carousel.php:38
+#: includes/shortcodes/custom-gallery.php:31
+#: includes/shortcodes/image-carousel.php:131 includes/shortcodes/slider.php:38
+msgid "Full-size image"
+msgstr "Obrázek v plné velikosti"
+
+#: includes/shortcodes/carousel.php:40
+#: includes/shortcodes/custom-gallery.php:33 includes/shortcodes/slider.php:40
+msgid "Slide link (added in media editor)"
+msgstr "Odkaz slidu (přidán ve správci médií)"
+
+#: includes/shortcodes/carousel.php:41
+#: includes/shortcodes/custom-gallery.php:34
+#: includes/shortcodes/image-carousel.php:134 includes/shortcodes/slider.php:41
+msgid "Attachment page"
+msgstr "Stránka přílohy"
+
+#: includes/shortcodes/carousel.php:42
+#: includes/shortcodes/custom-gallery.php:35
+#: includes/shortcodes/image-carousel.php:135 includes/shortcodes/slider.php:42
+msgid "Post permalink"
+msgstr "URL článku"
+
+#: includes/shortcodes/carousel.php:45
+#: includes/shortcodes/custom-gallery.php:38 includes/shortcodes/slider.php:45
+msgid "Links"
+msgstr "Odkazy"
+
+#: includes/shortcodes/carousel.php:46
+#: includes/shortcodes/custom-gallery.php:39 includes/shortcodes/slider.php:46
+msgid "Select which links will be used for images in this gallery"
+msgstr "Vyberte, jaké odkazy  budou použity pro obrázky v této galerii"
+
+#: includes/shortcodes/carousel.php:55
+#: includes/shortcodes/custom-gallery.php:48 includes/shortcodes/feed.php:34
+#: includes/shortcodes/image-carousel.php:148 includes/shortcodes/slider.php:55
+msgid "Links target"
+msgstr "Jak se mají odkazy otevírat"
+
+#: includes/shortcodes/carousel.php:56
+#: includes/shortcodes/custom-gallery.php:49 includes/shortcodes/slider.php:56
+msgid "Open links in"
+msgstr "Otevřít odkazy v"
+
+#: includes/shortcodes/slider.php:65
+msgid "Slider width (in pixels)"
+msgstr "Šířka slideru (v pixelech)"
+
+#: includes/shortcodes/slider.php:74
+msgid "Slider height (in pixels)"
+msgstr "Výška slideru (v pixelech)"
+
+#: includes/shortcodes/slider.php:80
+msgid "Ignore width and height parameters and make slider responsive"
+msgstr "Ignorovat parametry šířky a výšky a učinit tak slider responzivní"
+
+#: includes/shortcodes/carousel.php:103
+#: includes/shortcodes/custom-gallery.php:77 includes/shortcodes/slider.php:85
+msgid "Show titles"
+msgstr "Ukázat nadpisy"
+
+#: includes/shortcodes/slider.php:86
+msgid "Display slide titles"
+msgstr "Zobrazit postranní názvy"
+
+#: includes/shortcodes/slider.php:92
+msgid "Is slider centered on the page"
+msgstr "Je slider na stránce centrován "
+
+#: includes/shortcodes/carousel.php:115 includes/shortcodes/slider.php:97
+msgid "Arrows"
+msgstr "Šipky"
+
+#: includes/shortcodes/carousel.php:116 includes/shortcodes/slider.php:98
+msgid "Show left and right arrows"
+msgstr "Ukázat levou a pravou šipku"
+
+#: includes/shortcodes/carousel.php:121
+#: includes/shortcodes/display-posts.php:197 includes/shortcodes/slider.php:103
+msgid "Pagination"
+msgstr "Stránkování"
+
+#: includes/shortcodes/carousel.php:122 includes/shortcodes/slider.php:104
+msgid "Show pagination"
+msgstr "Ukázat stránkování"
+
+#: includes/shortcodes/carousel.php:127 includes/shortcodes/slider.php:109
+msgid "Mouse wheel control"
+msgstr "Ovládání kolečkem myši"
+
+#: includes/shortcodes/slider.php:110
+msgid "Allow to change slides with mouse wheel"
+msgstr "Povolit posouvat snímky kolečkem myši"
+
+#: includes/shortcodes/slider.php:119
+msgid "Choose interval between slide animations. Set to 0 to disable autoplay"
+msgstr "Vybrat interval mezi přechodovou animací jednotlivých snímků. Nastavte 0 pro vypnutí autopřehrávání"
+
+#: includes/shortcodes/carousel.php:145 includes/shortcodes/slider.php:127
+msgid "Speed"
+msgstr "Rychlost"
+
+#: includes/shortcodes/carousel.php:146 includes/shortcodes/slider.php:128
+msgid "Specify animation speed"
+msgstr "Specifikujte rychlost animace"
+
+#: includes/shortcodes/slider.php:137
+msgid "Customizable image slider"
+msgstr "Editovatelný slider obrázků"
+
+#: includes/shortcodes/carousel.php:65
+msgid "Carousel width (in pixels)"
+msgstr "Šířka karuselu (v pixelech)"
+
+#: includes/shortcodes/carousel.php:74
+msgid "Carousel height (in pixels)"
+msgstr "Výška karuseu (v pixelech)"
+
+#: includes/shortcodes/carousel.php:80
+msgid "Ignore width and height parameters and make carousel responsive"
+msgstr "Ignorovat parametry šířky a výšky a učinit tak karusel responzivní"
+
+#: includes/shortcodes/carousel.php:88
+msgid "Items to show"
+msgstr "Položky"
+
+#: includes/shortcodes/carousel.php:89
+msgid "How much carousel items is visible"
+msgstr "Kolik položek karuselu bude viditelných"
+
+#: includes/shortcodes/carousel.php:97
+msgid "Scroll number"
+msgstr "Počet skrolovaných"
+
+#: includes/shortcodes/carousel.php:98
+msgid "How much items are scrolled in one transition"
+msgstr "kolik položek bude skrolováno v jednom přechodu"
+
+#: includes/shortcodes/carousel.php:104
+msgid "Display titles for each item"
+msgstr "Zobrazit název pro každou položku"
+
+#: includes/shortcodes/carousel.php:110
+msgid "Is carousel centered on the page"
+msgstr "je karusel centrován na stránce"
+
+#: includes/shortcodes/carousel.php:128
+msgid "Allow to rotate carousel with mouse wheel"
+msgstr "Povolit ovládat rotaci karuselu kolečkem myši"
+
+#: includes/shortcodes/carousel.php:137
+msgid "Choose interval between auto animations. Set to 0 to disable autoplay"
+msgstr "Vybrat interval mezi přechodovou animací jednotlivých snímků. Nastavte 0 pro vypnutí autopřehrávání"
+
+#: includes/shortcodes/carousel.php:155
+msgid "Customizable image carousel"
+msgstr "Editovatelný karusel obrázků"
+
+#: includes/shortcodes/custom-gallery.php:58
+msgid "Single item width (in pixels)"
+msgstr "Šířka jednotlivé položky (v pixelech)"
+
+#: includes/shortcodes/custom-gallery.php:67
+msgid "Single item height (in pixels)"
+msgstr "Výška jednotlivé položky (v pixelech)"
+
+#: includes/shortcodes/custom-gallery.php:72
+msgid "Never"
+msgstr "Nikdy"
+
+#: includes/shortcodes/custom-gallery.php:73
+msgid "On mouse over"
+msgstr "Na přejetí myší"
+
+#: includes/shortcodes/custom-gallery.php:74
+msgid "Always"
+msgstr "Vždy"
+
+#: includes/shortcodes/custom-gallery.php:78
+msgid "Title display mode"
+msgstr "Způsob zobrazení nadpisu"
+
+#: includes/shortcodes/custom-gallery.php:87
+msgid "Customizable image gallery"
+msgstr "Upravitelná galerie obrázků"
+
+#: includes/config/popular-shortcodes.php:8
+#: includes/shortcodes/display-posts.php:9 includes/shortcodes/posts.php:8
+msgid "Posts"
+msgstr "Články"
+
+#: includes/shortcodes/display-posts.php:16 includes/shortcodes/posts.php:15
+#: includes/shortcodes/template.php:8
+msgid "Template"
+msgstr "Šablona"
+
+#: includes/shortcodes/posts.php:23
+msgid "Post ID's"
+msgstr "ID článku"
+
+#: includes/shortcodes/posts.php:24
+msgid "Enter comma separated ID's of the posts that you want to show"
+msgstr "Vložte seznam čárkou oddělených ID článků, které chcete zobrazit"
+
+#: includes/shortcodes/display-posts.php:46 includes/shortcodes/posts.php:35
+msgid "Posts per page"
+msgstr "Článků na stránku"
+
+#: includes/shortcodes/posts.php:36
+msgid "Specify number of posts that you want to show. Enter -1 to get all posts"
+msgstr "Určete počet článků, které se budou zobrazovat. Vložte - 1 pro zobrazování všech článků"
+
+#: includes/shortcodes/display-posts.php:54 includes/shortcodes/posts.php:46
+msgid "Post types"
+msgstr "Typy článků"
+
+#: includes/shortcodes/posts.php:47
+msgid "Select post types. Hold Ctrl key to select multiple post types"
+msgstr "Vybrat typy článků. Podržet klávesu Ctrl pro výběr několika typů zároveň"
+
+#: inc/core/generator-views.php:150 includes/shortcodes/display-posts.php:61
+#: includes/shortcodes/image-carousel.php:21 includes/shortcodes/posts.php:56
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: includes/shortcodes/posts.php:57
+msgid "Select taxonomy to show posts from"
+msgstr "Vyberte taxonomii, z níž budou články zobrazovány"
+
+#: includes/shortcodes/posts.php:68
+msgid "Select terms to show posts from"
+msgstr "Vyberte činitele, z nichž budou generovány články"
+
+#: includes/shortcodes/display-posts.php:89 includes/shortcodes/posts.php:87
+msgid "Taxonomy term operator"
+msgstr "Operátor činitele taxonomie"
+
+#: includes/shortcodes/display-posts.php:94 includes/shortcodes/posts.php:100
+msgid "Authors"
+msgstr "Autoři"
+
+#: includes/shortcodes/display-posts.php:99 includes/shortcodes/posts.php:108
+msgid "Meta key"
+msgstr "Meta klíč"
+
+#: includes/shortcodes/posts.php:109
+msgid "Enter meta key name to show posts that have this key"
+msgstr "Vložte meta klíč pro zobrazení článků s tímto klíčem"
+
+#: includes/shortcodes/display-posts.php:108 includes/shortcodes/posts.php:120
+msgid "Offset"
+msgstr "Ofset"
+
+#: includes/shortcodes/posts.php:121
+msgid "Specify offset to start posts loop not from first post"
+msgstr "Specifikovat ofset, aby by smyčka článků nezačala u prvního"
+
+#: includes/shortcodes/display-posts.php:135 includes/shortcodes/posts.php:129
+msgid "Descending"
+msgstr "Sestupný"
+
+#: includes/shortcodes/display-posts.php:136 includes/shortcodes/posts.php:130
+msgid "Ascending"
+msgstr "Vzestupný"
+
+#: includes/shortcodes/display-posts.php:139 includes/shortcodes/posts.php:133
+msgid "Order"
+msgstr "Pořadí"
+
+#: includes/shortcodes/posts.php:134
+msgid "Posts order"
+msgstr "Pořadí článků"
+
+#: includes/config/post-fields.php:6 includes/shortcodes/display-posts.php:115
+#: includes/shortcodes/meta.php:34 includes/shortcodes/post.php:38
+#: includes/shortcodes/posts.php:140
+msgid "Post ID"
+msgstr "ID článku"
+
+#: includes/config/post-fields.php:7 includes/shortcodes/display-posts.php:116
+#: includes/shortcodes/posts.php:141
+msgid "Post author"
+msgstr "Autor článku"
+
+#: includes/config/post-fields.php:12 includes/shortcodes/display-posts.php:117
+#: includes/shortcodes/posts.php:142
+msgid "Post title"
+msgstr "Název článku"
+
+#: includes/shortcodes/display-posts.php:118 includes/shortcodes/posts.php:143
+msgid "Post slug"
+msgstr "Adresa článku"
+
+#: includes/shortcodes/display-posts.php:119 includes/shortcodes/posts.php:144
+msgid "Date"
+msgstr "Datum"
+
+#: includes/shortcodes/display-posts.php:120 includes/shortcodes/posts.php:145
+msgid "Last modified date"
+msgstr "Poslední změna"
+
+#: includes/config/post-fields.php:20 includes/shortcodes/display-posts.php:121
+#: includes/shortcodes/display-posts.php:144 includes/shortcodes/posts.php:146
+#: includes/shortcodes/posts.php:159
+msgid "Post parent"
+msgstr "Nadřazená stránka"
+
+#: includes/shortcodes/display-posts.php:122 includes/shortcodes/posts.php:147
+msgid "Random"
+msgstr "Náhodný"
+
+#: includes/shortcodes/display-posts.php:123 includes/shortcodes/posts.php:148
+msgid "Comments number"
+msgstr "Počet komentářů"
+
+#: includes/config/post-fields.php:22 includes/shortcodes/display-posts.php:124
+#: includes/shortcodes/posts.php:149
+msgid "Menu order"
+msgstr "Pořadí v menu"
+
+#: includes/shortcodes/display-posts.php:125 includes/shortcodes/posts.php:150
+msgid "Meta key values"
+msgstr "Hodnoty meta klíče"
+
+#: includes/shortcodes/display-posts.php:129 includes/shortcodes/posts.php:154
+msgid "Order by"
+msgstr "Pořadí podle"
+
+#: includes/shortcodes/posts.php:155
+msgid "Order posts by"
+msgstr "Pořadí článků podle"
+
+#: includes/shortcodes/posts.php:160
+msgid "Show childrens of entered post (enter post ID)"
+msgstr "Ukázat podřazené stránky vloženého článku (vložte ID článku)"
+
+#: includes/shortcodes/display-posts.php:154 includes/shortcodes/posts.php:168
+msgid "Published"
+msgstr "Publikováno"
+
+#: includes/shortcodes/display-posts.php:155 includes/shortcodes/posts.php:169
+msgid "Pending"
+msgstr "Čekající"
+
+#: includes/shortcodes/display-posts.php:156 includes/shortcodes/posts.php:170
+msgid "Draft"
+msgstr "Náčrt"
+
+#: includes/shortcodes/display-posts.php:157 includes/shortcodes/posts.php:171
+msgid "Auto-draft"
+msgstr "Auto-náčrt"
+
+#: includes/shortcodes/display-posts.php:158 includes/shortcodes/posts.php:172
+msgid "Future post"
+msgstr "Budoucí článek"
+
+#: includes/shortcodes/display-posts.php:159 includes/shortcodes/posts.php:173
+msgid "Private post"
+msgstr "Soukromý článek"
+
+#: includes/shortcodes/display-posts.php:161 includes/shortcodes/posts.php:175
+msgid "Trashed"
+msgstr "vyhozený do koše"
+
+#: includes/shortcodes/display-posts.php:162
+#: includes/shortcodes/dummy-image.php:33 includes/shortcodes/posts.php:176
+msgid "Any"
+msgstr "Každý"
+
+#: includes/config/post-fields.php:14 includes/shortcodes/display-posts.php:165
+#: includes/shortcodes/posts.php:179
+msgid "Post status"
+msgstr "Status článku"
+
+#: includes/shortcodes/posts.php:180
+msgid "Show only posts with selected status"
+msgstr "Ukázat pouze články s vybraným statusem"
+
+#: includes/shortcodes/display-posts.php:171 includes/shortcodes/posts.php:188
+msgid "Ignore sticky"
+msgstr "Ignorovat zvýrazněné"
+
+#: includes/shortcodes/display-posts.php:228 includes/shortcodes/posts.php:207
+msgid "Custom posts query with customizable template"
+msgstr "Vlastní výpis článků s upravitelnou šablonou"
+
+#: includes/shortcodes/dummy-text.php:8
+msgid "Dummy text"
+msgstr "Ukázkový text"
+
+#: includes/shortcodes/dummy-text.php:15
+msgid "Paragraphs"
+msgstr "Paragrafy"
+
+#: includes/shortcodes/dummy-text.php:16
+msgid "Words"
+msgstr "Slova"
+
+#: includes/shortcodes/dummy-text.php:17
+msgid "Bytes"
+msgstr "Byty"
+
+#: includes/shortcodes/dummy-text.php:20
+msgid "What"
+msgstr "Co"
+
+#: includes/shortcodes/dummy-text.php:21
+msgid "What to generate"
+msgstr "Co generovat"
+
+#: includes/shortcodes/dummy-text.php:29
+msgid "Amount"
+msgstr "Množství"
+
+#: includes/shortcodes/dummy-text.php:30
+msgid "How many items (paragraphs or words) to generate. Minimum words amount is 5"
+msgstr "Kolik jednotek (odstavců či slov) generovat. Minimální počet slov je 5 "
+
+#: includes/shortcodes/dummy-text.php:36
+msgid "Generated text will be cached. Be careful with this option. If you disable it and insert many dummy_text shortcodes the page load time will be highly increased"
+msgstr "Generovaný text bude cachován. Buďte opatrní s touto možností. Pokud ji vypnete a vložíte mnoho shortkódů s ukázkovým textem, doba načítání stránky se výrazně zvýší! "
+
+#: includes/shortcodes/dummy-text.php:51
+msgid "Text placeholder"
+msgstr "Textová výplň"
+
+#: includes/shortcodes/dummy-image.php:8 includes/shortcodes/dummy-image.php:79
+msgid "Dummy image"
+msgstr "Ukázkový obrázek"
+
+#: includes/shortcodes/dummy-image.php:19
+msgid "Image width"
+msgstr "Šířka obrázku"
+
+#: includes/shortcodes/dummy-image.php:28
+msgid "Image height"
+msgstr "Výška obrázku"
+
+#: includes/shortcodes/dummy-image.php:34
+msgid "Abstract"
+msgstr "Abstraktní"
+
+#: includes/shortcodes/dummy-image.php:35
+msgid "Animals"
+msgstr "Zvířata"
+
+#: includes/shortcodes/dummy-image.php:36
+msgid "Business"
+msgstr "Obchod"
+
+#: includes/shortcodes/dummy-image.php:37
+msgid "Cats"
+msgstr "Kočky"
+
+#: includes/shortcodes/dummy-image.php:38
+msgid "City"
+msgstr "Město"
+
+#: includes/shortcodes/dummy-image.php:39
+msgid "Food"
+msgstr "Jídlo"
+
+#: includes/shortcodes/dummy-image.php:40
+msgid "Night life"
+msgstr "Noční život"
+
+#: includes/shortcodes/dummy-image.php:41
+msgid "Fashion"
+msgstr "Móda"
+
+#: includes/shortcodes/dummy-image.php:42
+msgid "People"
+msgstr "Lidé"
+
+#: includes/shortcodes/dummy-image.php:43
+msgid "Nature"
+msgstr "Příroda"
+
+#: includes/shortcodes/dummy-image.php:44
+msgid "Sports"
+msgstr "Sport"
+
+#: includes/shortcodes/dummy-image.php:45
+msgid "Technics"
+msgstr "Technika"
+
+#: includes/shortcodes/dummy-image.php:46
+msgid "Transport"
+msgstr "Transport"
+
+#: includes/shortcodes/dummy-image.php:50
+msgid "Select the theme for this image"
+msgstr "Vyberte vzhled pro tento obrázek"
+
+#: includes/shortcodes/dummy-image.php:59
+msgid "Image placeholder with random image"
+msgstr "Místo pro obrázek s náhodným obrázkem"
+
+#: includes/shortcodes/animate.php:8 includes/shortcodes/animate.php:16
+msgid "Animation"
+msgstr "Animace"
+
+#: includes/shortcodes/animate.php:17
+msgid "Select animation type"
+msgstr "Vybra typ animace"
+
+#: includes/shortcodes/animate.php:25
+msgid "Duration"
+msgstr "Trvání"
+
+#: includes/shortcodes/animate.php:26
+msgid "Animation duration (seconds)"
+msgstr "Trvání animace (v sekundách)"
+
+#: includes/shortcodes/animate.php:34
+msgid "Delay"
+msgstr "Zpoždění"
+
+#: includes/shortcodes/animate.php:35
+msgid "Animation delay (seconds)"
+msgstr "Zpoždění animace (v sekundách)"
+
+#: includes/shortcodes/animate.php:41
+msgid "This parameter determines what HTML tag will be used for animation wrapper. Turn this option to YES and animated element will be wrapped in SPAN instead of DIV. Useful for inline animations, like buttons"
+msgstr "Tento parametr určuje, jaký HTML tag bude použit pro uzavření animace. Nastavte ANO a animovaný element  bude uzavřen do tagu SPAN namísto DIVu. Užitečné pro inline animace (např. tlačítka)"
+
+#: includes/shortcodes/animate.php:50
+msgid "Animated content"
+msgstr "Animovaný obsah"
+
+#: includes/shortcodes/animate.php:51
+msgid "Wrapper for animation. Any nested element will be animated"
+msgstr "Uzavření animace. "
+
+#: includes/shortcodes/meta.php:14
+msgid "Key"
+msgstr "Klíč"
+
+#: includes/shortcodes/meta.php:15
+msgid "Meta key name"
+msgstr "Jméno meta klíče"
+
+#: includes/shortcodes/meta.php:20 includes/shortcodes/post.php:24
+#: includes/shortcodes/user.php:22
+msgid "This text will be shown if data is not found"
+msgstr "Tento text se ukáže, pokud nebude možné načíst data"
+
+#: includes/shortcodes/meta.php:24 includes/shortcodes/post.php:28
+#: includes/shortcodes/user.php:26
+msgid "Before"
+msgstr "Před"
+
+#: includes/shortcodes/meta.php:25 includes/shortcodes/post.php:29
+#: includes/shortcodes/user.php:27
+msgid "This content will be shown before the value"
+msgstr "Tento obsah se zobrazí před hodnotou"
+
+#: includes/shortcodes/meta.php:29 includes/shortcodes/post.php:33
+#: includes/shortcodes/user.php:31
+msgid "After"
+msgstr "Po"
+
+#: includes/shortcodes/meta.php:30 includes/shortcodes/post.php:34
+#: includes/shortcodes/user.php:32
+msgid "This content will be shown after the value"
+msgstr "Tento obsah se ukáže po hodnotě"
+
+#: includes/shortcodes/meta.php:35
+msgid "You can specify custom post ID. Leave this field empty to use an ID of the current post. Current post ID may not work in Live Preview mode"
+msgstr "Můžet specifikovat vlastní ID článku. Nechte pole prázdné a bude použito ID aktuálního článku. Upozornění: Pro ID aktuálního článku nemusí fungovat náhled (nutno vyzkoušet naživo na webu)"
+
+#: includes/shortcodes/meta.php:39 includes/shortcodes/post.php:49
+#: includes/shortcodes/user.php:41
+msgid "Filter"
+msgstr "Filtr"
+
+#: includes/shortcodes/meta.php:43
+msgid "Post meta"
+msgstr "Meta informace o článku"
+
+#: includes/config/user-fields.php:13
+msgid "Nice name"
+msgstr "Hezké jméno"
+
+#: includes/config/user-fields.php:15
+msgid "Registered"
+msgstr "registrovaný"
+
+#: includes/shortcodes/post.php:18 includes/shortcodes/user.php:16
+msgid "Field"
+msgstr "Pole"
+
+#: includes/shortcodes/user.php:36
+msgid "User ID"
+msgstr "ID uživatele"
+
+#: includes/shortcodes/user.php:37
+msgid "You can specify custom user ID. Leave this field empty to use an ID of the current user"
+msgstr "Můžete specifikovat ID uživatele. Nechte prázdné a bude použito ID aktuálního uživatele"
+
+#: includes/shortcodes/user.php:8
+msgid "User data"
+msgstr "Dat uživatele"
+
+#: includes/config/post-fields.php:8 includes/config/post-fields.php:9
+msgid "Post date"
+msgstr "Datum uveřejnění článku"
+
+#: includes/config/post-fields.php:13
+msgid "Post excerpt"
+msgstr "Úryvek z článku"
+
+#: includes/config/post-fields.php:15
+msgid "Comment status"
+msgstr "Stav komentářů"
+
+#: includes/config/post-fields.php:16
+msgid "Ping status"
+msgstr "Stav pingů"
+
+#: includes/config/post-fields.php:17
+msgid "Post name"
+msgstr "Název článku"
+
+#: includes/config/post-fields.php:23 includes/shortcodes/post.php:44
+msgid "Post type"
+msgstr "Typ článku"
+
+#: includes/config/post-fields.php:24
+msgid "Post mime type"
+msgstr "Typ přílohy článku"
+
+#: includes/config/post-fields.php:25
+msgid "Comment count"
+msgstr "Počet komentářů"
+
+#: includes/shortcodes/post.php:19
+msgid "Post data field name"
+msgstr "Název pole pro data článku"
+
+#: includes/shortcodes/post.php:11
+msgid "Post data"
+msgstr "Data článku"
+
+#: includes/shortcodes/display-posts.php:19 includes/shortcodes/template.php:14
+msgid "Template name"
+msgstr "Název šablony"
+
+#: includes/shortcodes/template.php:19
+msgid "Theme template"
+msgstr "Šablona vzhledu"
+
+#: inc/core/generator-views.php:95
+msgid "Yes"
+msgstr "Ano"
+
+#: inc/core/generator-views.php:95
+msgid "No"
+msgstr "Ne"
+
+#: inc/core/generator-views.php:105
+msgid "Icon picker"
+msgstr "Výběr ikony"
+
+#: inc/core/generator-views.php:105
+msgid "Filter icons"
+msgstr "Filtrovat ikony"
+
+#: inc/core/generator-views.php:126
+msgid "Horizontal offset"
+msgstr "Horizontální ofset"
+
+#: inc/core/generator-views.php:126
+msgid "Vertical offset"
+msgstr "Vertikální ofset"
+
+#: inc/core/generator-views.php:126
+msgid "Blur"
+msgstr "Rozmazat"
+
+#: inc/core/generator-views.php:137
+msgid "Border width"
+msgstr "Šířka okraje"
+
+#: inc/core/generator-views.php:137
+msgid "Border style"
+msgstr "Styl okraje"
+
+#: inc/core/generator-views.php:137
+msgid "Border color"
+msgstr "Barva okraje"
+
+#: inc/core/generator-views.php:148 includes/shortcodes/image-carousel.php:18
+msgid "Media library"
+msgstr "Knihovna médií"
+
+#: inc/core/generator-views.php:149 includes/shortcodes/image-carousel.php:20
+msgid "Recent posts"
+msgstr "Nejnovější články"
+
+#: inc/core/generator-views.php:157
+msgid "Select images source"
+msgstr "Vyberte zdroj obrázků"
+
+#: inc/core/generator-views.php:168
+msgid "Select taxonomy"
+msgstr "Vyberte taxonomii"
+
+#: inc/core/generator-views.php:179
+msgid "Add images"
+msgstr "přidat obrázky"
+
+#: inc/core/generator-views.php:179
+msgid "Click the button above and select images.<br>You can select multimple images with Ctrl (Cmd) key"
+msgstr "Klikněte na tlačítko nahoře a vyberte obrázky.<br>S použitím klávesy Ctrl (Cmd) můžete vybrat více obrázků najednou"
+
+#: inc/core/generator-views.php:179
+msgid "Select categories to retrieve posts from.<br>You can select multiple categories with Ctrl (Cmd) key"
+msgstr "Vyberte kategorie, z nichž budou generovány články.<br>S použitím klávesy Ctrl (Cmd) můžete vybrat více kategorií najednou"
+
+#: inc/core/generator-views.php:179
+msgid "Select taxonomy and it's terms.<br>You can select multiple terms with Ctrl (Cmd) key"
+msgstr "Vyberte taxonomii a její činitele.<br>S použitím klávesy Ctrl (Cmd) můžete vybrat více činitelů najednou"
+
+#: admin/class-shortcodes-ultimate-admin-settings.php:202
+#: admin/class-shortcodes-ultimate-admin-settings.php:203
+#: admin/class-shortcodes-ultimate-admin-settings.php:320
+#: admin/partials/notices/unsafe-features.php:19 inc/core/generator.php:210
+msgid "Settings"
+msgstr "Nastavení"
+
+#: admin/class-shortcodes-ultimate-admin-top-level.php:40
+#: admin/partials/pages/about.php:33
+msgid "Shortcodes"
+msgstr "Shortkódy"
+
+#: inc/core/generator.php:57 inc/core/generator.php:125
+#: inc/core/generator.php:153 inc/core/generator.php:280
+msgid "Insert shortcode"
+msgstr "Vložit shortkód"
+
+#: inc/core/generator.php:210
+msgid "Plugin settings"
+msgstr "nastavení pluginu"
+
+#: inc/core/generator.php:211
+msgid "Plugin homepage"
+msgstr "Domovská stránka pluginu"
+
+#: inc/core/generator.php:222
+msgid "Search for shortcodes"
+msgstr "Hledat v shortkódech"
+
+#: inc/core/generator.php:225
+msgid "Filter by type"
+msgstr "Filtrovat podle typu"
+
+#: inc/core/generator.php:265
+msgid "Shortcode not specified"
+msgstr "Nespecifikovaný shortcode"
+
+#: inc/core/generator.php:281
+msgid "Live preview"
+msgstr "Náhled"
+
+#: inc/core/generator.php:309
+msgid "Click to set this value"
+msgstr "Klikněte pro nastavení této hodnoty"
+
+#: inc/core/generator.php:352
+msgid "Access denied"
+msgstr "Přístup odepřen"
+
+#: inc/core/generator.php:397
+msgid "Presets"
+msgstr "Vzory"
+
+#: inc/core/generator.php:400
+msgid "Save current settings as preset"
+msgstr "Uložit současné nastavení jako vzor"
+
+#: inc/core/generator.php:429 inc/core/generator.php:432
+msgid "Presets not found"
+msgstr "Vzory nenalezeny"
+
+#: includes/config/user-fields.php:16
+msgid "Status"
+msgstr "Stav"
+
+#: includes/shortcodes/qrcode.php:8
+msgid "QR code"
+msgstr "QR kód"
+
+#: includes/shortcodes/video.php:8
+msgid "Video"
+msgstr "Video"
+
+#: includes/shortcodes/scheduler.php:14
+msgid "Time"
+msgstr "Čas"
+
+#: includes/shortcodes/scheduler.php:34
+msgid "Years"
+msgstr "Let"
+
+#: includes/shortcodes/menu.php:8
+msgid "Menu"
+msgstr "Menu"
+
+#: includes/config/post-fields.php:21
+msgid "GUID"
+msgstr "GUID"
+
+#: includes/config/user-fields.php:11
+msgid "Display name"
+msgstr "Zobrazované jméno"
+
+#. translators: %1$s, %2$s, %3$s – example values for the shortcode attribute
+#: includes/shortcodes/template.php:16
+msgid "Use template file name (with optional .php extension). If you need to use templates from theme sub-folder, use relative path. Example values: %1$s, %2$s, %3$s"
+msgstr "Použijte název souboru šablony (s možnou .php koncovkou). Pokud potřebujete použít šablony z adresáře vašeho vzhledu webu (obvykle /wp-content/themes/...), použijte relativní cestu. Např.: %1$s, %2$s, %3$s"
+
+#: includes/shortcodes/label.php:8 includes/shortcodes/label.php:33
+msgid "Label"
+msgstr "Nálepka"
+
+#: includes/shortcodes/tabs.php:83
+msgid "Tab name"
+msgstr "Název záložky"
+
+#: includes/shortcodes/box.php:15 includes/shortcodes/dailymotion.php:97
+#: includes/shortcodes/document.php:44 includes/shortcodes/gmap.php:52
+#: includes/shortcodes/permalink.php:29 includes/shortcodes/qrcode.php:24
+#: includes/shortcodes/service.php:15 includes/shortcodes/spoiler.php:13
+#: includes/shortcodes/tabs.php:84 includes/shortcodes/video.php:27
+#: includes/shortcodes/vimeo.php:60
+#: includes/shortcodes/youtube-advanced.php:128
+#: includes/shortcodes/youtube.php:54
+msgid "Title"
+msgstr "Název"
+
+#: includes/shortcodes/display-posts.php:193 includes/shortcodes/tabs.php:90
+msgid "Disabled"
+msgstr "Vypnuto"
+
+#: includes/shortcodes/tabs.php:91
+msgid "Is this tab disabled"
+msgstr "Je tato záložka vypnuta"
+
+#: includes/shortcodes/spoiler.php:52 includes/shortcodes/tabs.php:95
+msgid "Anchor"
+msgstr "Kotva"
+
+#: includes/shortcodes/tabs.php:76
+msgid "Tab content"
+msgstr "Obsah záložky"
+
+#: includes/shortcodes/tabs.php:77
+msgid "Single tab"
+msgstr "Jednotlivá záložka"
+
+#: includes/shortcodes/spoiler.php:7
+msgid "Spoiler"
+msgstr "Spoiler"
+
+#: includes/shortcodes/spoiler.php:12 includes/shortcodes/spoiler.php:80
+msgid "Spoiler title"
+msgstr "Název spoileru"
+
+#: includes/shortcodes/spoiler.php:14
+msgid "Text in spoiler title"
+msgstr "Text v nadpisu spoileru"
+
+#: includes/shortcodes/spoiler.php:19
+msgid "Open"
+msgstr "Otevřít"
+
+#: includes/shortcodes/spoiler.php:20
+msgid "Is spoiler content visible by default"
+msgstr "Je obsah spoileru viditelný v základu"
+
+#: includes/functions-styles.php:23
+msgid "Fancy"
+msgstr "Elegantní"
+
+#: includes/functions-styles.php:24 includes/shortcodes/dropcap.php:18
+msgid "Simple"
+msgstr "Jednoduché"
+
+#: includes/shortcodes/spoiler.php:27
+msgid "Choose style for this spoiler"
+msgstr "Vybrat styl pro tento spoiler"
+
+#: includes/shortcodes/spoiler.php:32
+msgid "Plus"
+msgstr "Plus"
+
+#: includes/shortcodes/spoiler.php:33
+msgid "Plus circle"
+msgstr "Plus oblé"
+
+#: includes/shortcodes/spoiler.php:34
+msgid "Plus square 1"
+msgstr "Plus hranaté 1"
+
+#: includes/shortcodes/spoiler.php:35
+msgid "Plus square 2"
+msgstr "Plus hranaté 2"
+
+#: includes/shortcodes/spoiler.php:36
+msgid "Arrow"
+msgstr "Šipka"
+
+#: includes/shortcodes/spoiler.php:37
+msgid "Arrow circle 1"
+msgstr "Šipka oblá 1"
+
+#: includes/shortcodes/spoiler.php:38
+msgid "Arrow circle 2"
+msgstr "Šipka oblá 2"
+
+#: includes/shortcodes/spoiler.php:39
+msgid "Chevron"
+msgstr "Šipka dolů"
+
+#: includes/shortcodes/spoiler.php:40
+msgid "Chevron circle"
+msgstr "Šipka dolů oblá"
+
+#: includes/shortcodes/spoiler.php:41
+msgid "Caret"
+msgstr "Trojúhelník"
+
+#: includes/shortcodes/spoiler.php:42
+msgid "Caret square"
+msgstr "Trojúhelník hranatý"
+
+#: includes/shortcodes/spoiler.php:43
+msgid "Folder 1"
+msgstr "Složka 1"
+
+#: includes/shortcodes/spoiler.php:44
+msgid "Folder 2"
+msgstr "Složka 2"
+
+#: admin/class-shortcodes-ultimate-admin-pro-features.php:102
+#: includes/shortcodes/button.php:97 includes/shortcodes/list.php:15
+#: includes/shortcodes/service.php:21 includes/shortcodes/spoiler.php:47
+msgid "Icon"
+msgstr "Ikonka"
+
+#: includes/shortcodes/spoiler.php:48
+msgid "Icons for spoiler"
+msgstr "ikony pro spoiler"
+
+#: includes/shortcodes/spoiler.php:68
+msgid "Hidden content"
+msgstr "Skrytý obsah"
+
+#: includes/shortcodes/spoiler.php:69
+msgid "Spoiler with hidden content"
+msgstr "Spoiler se skrytým obsahem"
+
+#: includes/shortcodes/accordion.php:25 includes/shortcodes/spoiler.php:70
+msgid "Did you know that you can wrap multiple spoilers with [accordion] shortcode to create accordion effect?"
+msgstr "Věděli jste, že můžete uzavřít několik spoilerů do shortkódu [accordion], abyste dosáhli efektu harmoniky?"
+
+#: includes/shortcodes/accordion.php:8
+msgid "Accordion"
+msgstr "Harmonika"
+
+#: includes/shortcodes/accordion.php:24
+msgid "Accordion with spoilers"
+msgstr "Harmonika se spoilery"
+
+#: includes/shortcodes/divider.php:8
+msgid "Divider"
+msgstr "Oddělovač"
+
+#: includes/shortcodes/divider.php:15
+msgid "Show TOP link"
+msgstr "Ukázat odkaz \"JÍT NAHORU\""
+
+#: includes/shortcodes/divider.php:16
+msgid "Show link to top of the page or not"
+msgstr "Ukázat odkaz na vršek stránek nebo ne"
+
+#: includes/shortcodes/divider.php:19
+msgid "Go to top"
+msgstr "Jít nahoru"
+
+#: includes/shortcodes/divider.php:20
+msgid "Link text"
+msgstr "Text odkazu"
+
+#: includes/shortcodes/divider.php:21
+msgid "Text for the GO TOP link"
+msgstr "Text pro odkaz \"JÍT NAHORU\""
+
+#: includes/shortcodes/divider.php:79
+msgid "Content divider with optional TOP link"
+msgstr "Oddělovač obsahu s potenciálním odkazem \"JÍT NAHORU\""
+
+#: includes/shortcodes/spacer.php:8
+msgid "Spacer"
+msgstr "Místo"
+
+#: includes/shortcodes/carousel.php:73
+#: includes/shortcodes/custom-gallery.php:66
+#: includes/shortcodes/dailymotion.php:32 includes/shortcodes/document.php:34
+#: includes/shortcodes/dummy-image.php:27 includes/shortcodes/expand.php:28
+#: includes/shortcodes/gmap.php:27 includes/shortcodes/slider.php:73
+#: includes/shortcodes/spacer.php:18 includes/shortcodes/video.php:45
+#: includes/shortcodes/vimeo.php:32 includes/shortcodes/youtube-advanced.php:38
+#: includes/shortcodes/youtube.php:32
+msgid "Height"
+msgstr "Výška"
+
+#: includes/shortcodes/spacer.php:19
+msgid "Height of the spacer in pixels"
+msgstr "Výška v pixelech"
+
+#: includes/shortcodes/spacer.php:28
+msgid "Empty space with adjustable height"
+msgstr "prázdné místo s nastavitelnou výškou"
+
+#: includes/shortcodes/highlight.php:8
+msgid "Highlight"
+msgstr "Zvýraznění"
+
+#: includes/shortcodes/button.php:49 includes/shortcodes/highlight.php:16
+#: includes/shortcodes/note.php:16
+msgid "Background"
+msgstr "Pozadí"
+
+#: includes/shortcodes/highlight.php:17
+msgid "Highlighted text background color"
+msgstr "Barva pozadí zvýrazněného textu"
+
+#: includes/shortcodes/button.php:56 includes/shortcodes/expand.php:41
+#: includes/shortcodes/highlight.php:23
+#: includes/shortcodes/lightbox-content.php:92
+#: includes/shortcodes/lightbox-content.php:98 includes/shortcodes/note.php:23
+#: includes/shortcodes/tooltip.php:43
+msgid "Text color"
+msgstr "Barva textu"
+
+#: includes/shortcodes/highlight.php:24
+msgid "Highlighted text color"
+msgstr "Barva zvýraznéného textu"
+
+#: includes/shortcodes/highlight.php:33 includes/shortcodes/highlight.php:34
+msgid "Highlighted text"
+msgstr "Zvýrazněný text"
+
+#: includes/shortcodes/label.php:16
+msgid "Success"
+msgstr "Úspěch"
+
+#: includes/shortcodes/label.php:17
+msgid "Warning"
+msgstr "Varování"
+
+#: includes/shortcodes/label.php:18
+msgid "Important"
+msgstr "Důležité"
+
+#: includes/shortcodes/label.php:19
+msgid "Black"
+msgstr "Černý"
+
+#: includes/shortcodes/label.php:23
+msgid "Type"
+msgstr "typ"
+
+#: includes/shortcodes/label.php:24
+msgid "Style of the label"
+msgstr "Styl nálepky"
+
+#: includes/shortcodes/label.php:34
+msgid "Styled label"
+msgstr "Stylovaná nálepka"
+
+#: includes/shortcodes/quote.php:8 includes/shortcodes/quote.php:37
+msgid "Quote"
+msgstr "Citát"
+
+#: includes/shortcodes/quote.php:17
+msgid "Choose style for this quote"
+msgstr "vybete styl pro tento citát"
+
+#: includes/shortcodes/quote.php:21
+msgid "Cite"
+msgstr "Citovat"
+
+#: includes/shortcodes/quote.php:22
+msgid "Quote author name"
+msgstr "Jméno autora citace"
+
+#: includes/shortcodes/quote.php:27
+msgid "Cite url"
+msgstr "URL citace"
+
+#: includes/shortcodes/quote.php:28
+msgid "Url of the quote author. Leave empty to disable link"
+msgstr "URL autora citace. Nechcete-li uvádět, nechte prázdné"
+
+#: includes/shortcodes/quote.php:38
+msgid "Blockquote alternative"
+msgstr "Citační alternativy"
+
+#: includes/shortcodes/pullquote.php:8 includes/shortcodes/pullquote.php:29
+#: includes/shortcodes/pullquote.php:30
+msgid "Pullquote"
+msgstr "Zvýrazněná citace"
+
+#: includes/shortcodes/pullquote.php:20
+msgid "Pullquote alignment (float)"
+msgstr "Zarovnání zvýrazněné citace (float)"
+
+#: includes/shortcodes/dropcap.php:8 includes/shortcodes/dropcap.php:41
+msgid "Dropcap"
+msgstr "Iniciála"
+
+#: includes/shortcodes/button.php:32 includes/shortcodes/dropcap.php:16
+msgid "Flat"
+msgstr "Plochý"
+
+#: includes/shortcodes/dropcap.php:17 includes/shortcodes/image-carousel.php:50
+msgid "Light"
+msgstr "Světlý"
+
+#: includes/shortcodes/dropcap.php:22
+msgid "Dropcap style preset"
+msgstr "Styl iniciály"
+
+#: includes/shortcodes/dropcap.php:31
+msgid "Choose dropcap size"
+msgstr "Vybrat velikost iniciály."
+
+#: includes/shortcodes/frame.php:8
+msgid "Frame"
+msgstr "Obrázek"
+
+#: includes/shortcodes/frame.php:21
+msgid "Frame alignment"
+msgstr "Zarovnání obrázku"
+
+#: includes/shortcodes/frame.php:30
+msgid "Styled image frame"
+msgstr "Stylovaný obrázek"
+
+#: includes/shortcodes/row.php:25
+msgid "Row for flexible columns"
+msgstr "Řádek pro flexibilní sloupce"
+
+#: includes/shortcodes/column.php:8
+msgid "Column"
+msgstr "Sloupec"
+
+#: includes/shortcodes/column.php:16
+msgid "Full width"
+msgstr "Plná šířka"
+
+#: includes/shortcodes/column.php:17
+msgid "One half"
+msgstr "Jedna polovina"
+
+#: includes/shortcodes/column.php:18
+msgid "One third"
+msgstr "Jedna třetina"
+
+#: includes/shortcodes/column.php:19
+msgid "Two third"
+msgstr "Dvě třetiny"
+
+#: includes/shortcodes/column.php:20
+msgid "One fourth"
+msgstr "Jedna čtvrtina"
+
+#: includes/shortcodes/column.php:21
+msgid "Three fourth"
+msgstr "Tři čtvrtiny"
+
+#: includes/shortcodes/column.php:22
+msgid "One fifth"
+msgstr "Jedna pětina"
+
+#: includes/shortcodes/column.php:23
+msgid "Two fifth"
+msgstr "Dvě pětiny"
+
+#: includes/shortcodes/column.php:24
+msgid "Three fifth"
+msgstr "Tři pětiny"
+
+#: includes/shortcodes/column.php:25
+msgid "Four fifth"
+msgstr "Čtyři pětiny"
+
+#: includes/shortcodes/column.php:26
+msgid "One sixth"
+msgstr "jedna šestina"
+
+#: includes/shortcodes/column.php:27
+msgid "Five sixth"
+msgstr "Pět šestin"
+
+#: includes/shortcodes/column.php:31
+msgid "Select column width. This width will be calculated depend page width"
+msgstr "Vyberte šířku sloupce. tato šířka bude počítána v závislosti na šířce stránky"
+
+#: includes/shortcodes/button.php:77 includes/shortcodes/column.php:36
+msgid "Centered"
+msgstr "Centrováno"
+
+#: includes/shortcodes/column.php:37
+msgid "Is this column centered on the page"
+msgstr "Je tento sloupec centrovaný na stránce"
+
+#: includes/shortcodes/column.php:46
+msgid "Column content"
+msgstr "Obsah sloupce"
+
+#: includes/shortcodes/column.php:47
+msgid "Flexible and responsive columns"
+msgstr "Flexibilní a responzivní sloupce"
+
+#: includes/shortcodes/column.php:48
+msgid "Did you know that you need to wrap columns with [row] shortcode?"
+msgstr "Věděli jste, že musíte zabalit sloupce do [row] shortkódu?"
+
+#: includes/shortcodes/list.php:8
+msgid "List"
+msgstr "Seznam"
+
+#: includes/shortcodes/list.php:16
+msgid "You can upload custom icon for this list or pick a built-in icon"
+msgstr "Můete nahrát vlastní ikonu pro tento seznam nebo vybrat některou z nabízených ikon"
+
+#: includes/shortcodes/button.php:103 includes/shortcodes/list.php:21
+#: includes/shortcodes/service.php:27
+msgid "Icon color"
+msgstr "Barva ikony"
+
+#: includes/shortcodes/button.php:104 includes/shortcodes/list.php:22
+#: includes/shortcodes/service.php:28
+msgid "This color will be applied to the selected icon. Does not works with uploaded icons"
+msgstr "tato barva bude aplikována na vybranou ikonu. nebude fungovat na vámi uploadované ikony"
+
+#: includes/shortcodes/list.php:40
+msgid ""
+"<ul>\n"
+"<li>List item</li>\n"
+"<li>List item</li>\n"
+"<li>List item</li>\n"
+"</ul>"
+msgstr ""
+"<ul>\n"
+"<li>Položka seznamu</li>\n"
+"<li>Položka seznamu</li>\n"
+"<li>Položka seznamu</li>\n"
+"</ul>"
+
+#: includes/shortcodes/list.php:41
+msgid "Styled unordered list"
+msgstr "Stylovaný nečíslovaný seznm"
+
+#: includes/config/popular-shortcodes.php:20 includes/shortcodes/button.php:8
+#: includes/shortcodes/expand.php:58
+msgid "Button"
+msgstr "Tlačítko"
+
+#: includes/shortcodes/button.php:15 includes/shortcodes/qrcode.php:59
+msgid "Link"
+msgstr "Odkaz"
+
+#: includes/shortcodes/button.php:16
+msgid "Button link"
+msgstr "Odkaz tlačítka"
+
+#: includes/shortcodes/button.php:25 includes/shortcodes/permalink.php:24
+msgid "Target"
+msgstr "Otevřít v"
+
+#: includes/shortcodes/button.php:26
+msgid "Button link target"
+msgstr "Cíl odkazu tlačítka"
+
+#: includes/shortcodes/button.php:33
+msgid "Ghost"
+msgstr "Duch"
+
+#: includes/shortcodes/box.php:22 includes/shortcodes/button.php:34
+msgid "Soft"
+msgstr "Měkké"
+
+#: includes/shortcodes/box.php:23 includes/shortcodes/button.php:35
+msgid "Glass"
+msgstr "Sklo"
+
+#: includes/shortcodes/box.php:24 includes/shortcodes/button.php:36
+msgid "Bubbles"
+msgstr "Bubliny"
+
+#: includes/shortcodes/box.php:25 includes/shortcodes/button.php:37
+msgid "Noise"
+msgstr "Hluk"
+
+#: includes/shortcodes/button.php:38
+msgid "Stroked"
+msgstr "Údery štětcem"
+
+#: includes/shortcodes/button.php:43
+msgid "Button background style preset"
+msgstr "Vzor stylu pozadí tlačítka"
+
+#: includes/shortcodes/button.php:50
+msgid "Button background color"
+msgstr "Barva pozadí Tlačítka"
+
+#: includes/shortcodes/button.php:57
+msgid "Button text color"
+msgstr "Barva textu tlačítka"
+
+#: includes/shortcodes/button.php:66
+msgid "Button size"
+msgstr "Velikost tlačítka"
+
+#: includes/shortcodes/button.php:71
+msgid "Fluid"
+msgstr "Proměnlivý"
+
+#: includes/shortcodes/button.php:72
+msgid "Fluid buttons has 100% width"
+msgstr "Proměnlivá tlačítka ma jí 100% šířku"
+
+#: includes/shortcodes/button.php:78
+msgid "Is button centered on the page"
+msgstr "Je tlačítko centrováno na stránce"
+
+#: includes/shortcodes/button.php:84
+msgid "Round"
+msgstr "Zaoblený"
+
+#: includes/config/crop-ratios.php:43 includes/shortcodes/button.php:85
+msgid "Square"
+msgstr "Hranatý"
+
+#: includes/shortcodes/box.php:51 includes/shortcodes/button.php:91
+#: includes/shortcodes/note.php:32
+msgid "Radius"
+msgstr "Úhel"
+
+#: includes/shortcodes/button.php:92
+msgid "Radius of button corners. Auto-radius calculation based on button size"
+msgstr "Úhel zaoblení rohů tlačítka. Automatické zaoblení odvisí od velikosti tlačítka "
+
+#: includes/shortcodes/button.php:98
+msgid "You can upload custom icon for this button or pick a built-in icon"
+msgstr "Můžete nahrát vlastní ikonu pro toto tlačítko anebo použít jednu z nabízených ikon "
+
+#: includes/shortcodes/button.php:109
+msgid "Text shadow"
+msgstr "Stín textu"
+
+#: includes/shortcodes/button.php:110
+msgid "Button text shadow"
+msgstr "Stín textu tlačítka"
+
+#: includes/config/user-fields.php:9 includes/shortcodes/button.php:114
+msgid "Description"
+msgstr "Popis"
+
+#: includes/shortcodes/button.php:115
+msgid "Small description under button text. This option is incompatible with icon."
+msgstr "Drobný popis pod textem tlačítka. Tato možnost není kompatibilní s ikonou."
+
+#: includes/shortcodes/button.php:125
+msgid "Advanced JavaScript code for onClick action"
+msgstr "Pokročilý javaskriptový kód pro onClick"
+
+#: includes/shortcodes/button.php:149
+msgid "Button text"
+msgstr "Text tlačítka"
+
+#: includes/shortcodes/button.php:150
+msgid "Styled button"
+msgstr "Stylované tlačítko"
+
+#: includes/shortcodes/service.php:8
+msgid "Service"
+msgstr "Služba"
+
+#: includes/shortcodes/service.php:14 includes/shortcodes/service.php:56
+msgid "Service title"
+msgstr "Název služby"
+
+#: includes/shortcodes/service.php:16
+msgid "Service name"
+msgstr "Název služby"
+
+#: includes/shortcodes/service.php:22
+msgid "You can upload custom icon for this box"
+msgstr "Můžete uploadovat vlastní ikonu pro tento box"
+
+#: includes/shortcodes/service.php:36
+msgid "Icon size"
+msgstr "Velikost ikony"
+
+#: includes/shortcodes/service.php:37
+msgid "Size of the uploaded icon in pixels"
+msgstr "Velikost uploadované ikony v pixelech"
+
+#: includes/shortcodes/service.php:46
+msgid "Service description"
+msgstr "Popis služby"
+
+#: includes/shortcodes/service.php:47
+msgid "Service box with title"
+msgstr "Box služeb s nadpisem"
+
+#: includes/shortcodes/box.php:14
+msgid "Box title"
+msgstr "Název boxu"
+
+#: includes/shortcodes/box.php:16
+msgid "Text for the box title"
+msgstr "Text pro název boxu"
+
+#: includes/shortcodes/box.php:29
+msgid "Box style preset"
+msgstr "Vzor stylu boxu"
+
+#: inc/core/generator-views.php:126 includes/shortcodes/box.php:35
+msgid "Color"
+msgstr "Barva"
+
+#: includes/shortcodes/box.php:36
+msgid "Color for the box title and borders"
+msgstr "Barva pro název boxu a okraje"
+
+#: includes/shortcodes/box.php:42
+msgid "Title text color"
+msgstr "Barva názvu boxu"
+
+#: includes/shortcodes/box.php:43
+msgid "Color for the box title text"
+msgstr "Barva textu názvu boxu"
+
+#: includes/shortcodes/box.php:52
+msgid "Box corners radius"
+msgstr "Zaoblení rohů boxu"
+
+#: includes/shortcodes/box.php:66
+msgid "Box content"
+msgstr "Obsah boxu"
+
+#: includes/shortcodes/box.php:67
+msgid "Colored box with caption"
+msgstr "Barevný box s nadpisem"
+
+#: includes/shortcodes/note.php:8
+msgid "Note"
+msgstr "Poznámka"
+
+#: includes/shortcodes/note.php:17
+msgid "Note background color"
+msgstr "Barva pozadí poznámky"
+
+#: includes/shortcodes/note.php:24
+msgid "Note text color"
+msgstr "Barva textu poznámky"
+
+#: includes/shortcodes/note.php:33
+msgid "Note corners radius"
+msgstr "Úhel zaoblení poznámky"
+
+#: includes/shortcodes/note.php:47
+msgid "Note text"
+msgstr "Text poznámky"
+
+#: includes/shortcodes/note.php:48
+msgid "Colored box"
+msgstr "Barevný box"
+
+#: includes/shortcodes/lightbox.php:18
+msgid "Image"
+msgstr "Obrázek"
+
+#: includes/shortcodes/lightbox.php:19
+msgid "Inline (html content)"
+msgstr "Inline (html obsah)"
+
+#: includes/shortcodes/lightbox.php:22
+msgid "Content type"
+msgstr "Typ obsahu"
+
+#: includes/shortcodes/lightbox.php:23
+msgid "Select type of the lightbox window content"
+msgstr "Vybrat typ obsahu lightboxového okna"
+
+#: includes/shortcodes/lightbox.php:27
+msgid "Content source"
+msgstr "Zdroj obsahu"
+
+#: includes/shortcodes/lightbox.php:44
+msgid "Lightbox window with custom content"
+msgstr "Okno lightboxu s vlastním obsahem"
+
+#: includes/shortcodes/tooltip.php:8
+msgid "Tooltip"
+msgstr "Vyskakovací tip"
+
+#: includes/shortcodes/tooltip.php:25
+msgid "Top"
+msgstr "Nahoře"
+
+#: includes/shortcodes/tooltip.php:26
+msgid "Bottom"
+msgstr "Dole"
+
+#: includes/shortcodes/tooltip.php:31
+msgid "Position"
+msgstr "Umístění"
+
+#: includes/shortcodes/tooltip.php:32
+msgid "Tooltip position"
+msgstr "Umístění tipu"
+
+#: admin/class-shortcodes-ultimate-admin-pro-features.php:110
+#: includes/shortcodes/lightbox-content.php:104
+msgid "Shadow"
+msgstr "Stín"
+
+#: includes/shortcodes/tooltip.php:52
+msgid "Font size"
+msgstr "Velikost písma"
+
+#: includes/shortcodes/tooltip.php:14
+msgid "Tooltip title"
+msgstr "Název vyskakovacího tipu"
+
+#: includes/shortcodes/tooltip.php:18 includes/shortcodes/tooltip.php:19
+msgid "Tooltip content"
+msgstr "Obsah tipu"
+
+#: includes/shortcodes/tooltip.php:93
+msgid "Show and hide on mouse over"
+msgstr "Ukázat a schovat při přejetí myši"
+
+#: includes/shortcodes/tooltip.php:94
+msgid "Show and hide on mouse click"
+msgstr "Ukázat a schovat při kliknutí myši"
+
+#: includes/shortcodes/tooltip.php:95
+msgid "Always visible"
+msgstr "Vždy viditelné"
+
+#: includes/shortcodes/tooltip.php:98
+msgid "Behavior"
+msgstr "Chování"
+
+#: includes/shortcodes/tooltip.php:109
+msgid "Tooltip window with custom content"
+msgstr "Okno tipu s vlastním obsahem"
+
+#: includes/shortcodes/private.php:8
+msgid "Private"
+msgstr "Soukromý"
+
+#: includes/shortcodes/private.php:19
+msgid "Private note text"
+msgstr "Text soukromé poznámky"
+
+#: includes/shortcodes/youtube-advanced.php:16
+#: includes/shortcodes/youtube.php:15
+msgid "Url of YouTube page with video. Ex: http://youtube.com/watch?v=XXXXXX"
+msgstr "URL YouTube stránky, z níž je video. Např: http://youtube.com/watch?v=XXXXXX"
+
+#: includes/shortcodes/audio.php:21 includes/shortcodes/carousel.php:64
+#: includes/shortcodes/custom-gallery.php:57
+#: includes/shortcodes/dailymotion.php:23 includes/shortcodes/document.php:25
+#: includes/shortcodes/dummy-image.php:18 includes/shortcodes/gmap.php:18
+#: includes/shortcodes/lightbox-content.php:26
+#: includes/shortcodes/slider.php:64 includes/shortcodes/video.php:36
+#: includes/shortcodes/vimeo.php:23 includes/shortcodes/youtube-advanced.php:29
+#: includes/shortcodes/youtube.php:23
+msgid "Width"
+msgstr "Šířka"
+
+#: includes/shortcodes/dailymotion.php:24 includes/shortcodes/video.php:37
+#: includes/shortcodes/vimeo.php:24 includes/shortcodes/youtube-advanced.php:30
+#: includes/shortcodes/youtube.php:24
+msgid "Player width"
+msgstr "Šířka přehrávače"
+
+#: includes/shortcodes/dailymotion.php:33 includes/shortcodes/video.php:46
+#: includes/shortcodes/vimeo.php:33 includes/shortcodes/youtube-advanced.php:39
+#: includes/shortcodes/youtube.php:33
+msgid "Player height"
+msgstr "Výška přehrávače"
+
+#: includes/shortcodes/carousel.php:79 includes/shortcodes/csv-table.php:35
+#: includes/shortcodes/dailymotion.php:38 includes/shortcodes/document.php:40
+#: includes/shortcodes/gmap.php:33 includes/shortcodes/slider.php:79
+#: includes/shortcodes/table.php:17 includes/shortcodes/vimeo.php:38
+#: includes/shortcodes/youtube-advanced.php:44
+#: includes/shortcodes/youtube.php:38
+msgid "Responsive"
+msgstr "Responzivní"
+
+#: includes/shortcodes/dailymotion.php:39 includes/shortcodes/vimeo.php:39
+#: includes/shortcodes/youtube-advanced.php:45
+#: includes/shortcodes/youtube.php:39
+msgid "Ignore width and height parameters and make player responsive"
+msgstr "Nezadávat pevnou výšku a šířku - přehrávač bude responzivní "
+
+#: includes/shortcodes/audio.php:27 includes/shortcodes/carousel.php:136
+#: includes/shortcodes/dailymotion.php:44
+#: includes/shortcodes/image-carousel.php:157
+#: includes/shortcodes/slider.php:118 includes/shortcodes/video.php:57
+#: includes/shortcodes/vimeo.php:44 includes/shortcodes/youtube-advanced.php:72
+#: includes/shortcodes/youtube.php:44
+msgid "Autoplay"
+msgstr "Automaticky začít hrát"
+
+#: includes/shortcodes/youtube-advanced.php:8
+msgid "YouTube advanced"
+msgstr "YouTube pokročilé"
+
+#: includes/shortcodes/youtube-advanced.php:21
+msgid "Value is a comma-separated list of video IDs to play. If you specify a value, the first video that plays will be the VIDEO_ID specified in the URL path, and the videos specified in the playlist parameter will play thereafter"
+msgstr "Hodnota je seznam ID videí oddělených čárkou. Pokud specifikujete hodnotu, první video, které se přehraje, bude VIDEO_ID specifikováno URL adresou, ostatní videa specifikovaná v playlistu budou přehrána potom"
+
+#: includes/shortcodes/youtube-advanced.php:50
+msgid "0 - Hide controls"
+msgstr "0 - Schovat ovládací tlačítka"
+
+#: includes/shortcodes/youtube-advanced.php:51
+msgid "1 - Show controls"
+msgstr "1 - Ukázat ovládací tlačítka"
+
+#: includes/shortcodes/youtube-advanced.php:52
+msgid "2 - Show controls when playback is started"
+msgstr "2 - Ukázat ovládací tlačítka na začátku přehrávání"
+
+#: includes/shortcodes/video.php:51 includes/shortcodes/youtube-advanced.php:55
+msgid "Controls"
+msgstr "Ovládací tlačítka"
+
+#: includes/shortcodes/youtube-advanced.php:56
+msgid "This parameter indicates whether the video player controls will display"
+msgstr "Tento parametr určuje, zda se budou zobrazovat ovládací tlačítka videopřehrávače"
+
+#: includes/shortcodes/youtube-advanced.php:61
+msgid "0 - Do not hide controls"
+msgstr "0 - neschovávat ovládací tlačítka"
+
+#: includes/shortcodes/youtube-advanced.php:62
+msgid "1 - Hide all controls on mouse out"
+msgstr "1 - Skrýt všechna tlačítka po přejetí myší"
+
+#: includes/shortcodes/youtube-advanced.php:63
+msgid "2 - Hide progress bar on mouse out"
+msgstr "2 - Skrýt ukazatel průběhu videa po přejetí myší"
+
+#: includes/shortcodes/youtube-advanced.php:66
+msgid "Autohide"
+msgstr "Automatické skrytí"
+
+#: includes/shortcodes/youtube-advanced.php:67
+msgid "This parameter indicates whether the video controls will automatically hide after a video begins playing"
+msgstr "Tento parametr ukazuje, zda se budou ovládací tlačítka videopřehrávače automaticky skrývat po startu videa"
+
+#: includes/shortcodes/audio.php:33 includes/shortcodes/video.php:63
+#: includes/shortcodes/youtube-advanced.php:84
+msgid "Loop"
+msgstr "Smyčka"
+
+#: includes/shortcodes/youtube-advanced.php:85
+msgid "Setting of YES will cause the player to play the initial video again and again"
+msgstr "Nastavení hodnoty ANO způsobí, že přehrávač bude bude hrát počáteční video znovu a znovu"
+
+#: includes/shortcodes/youtube-advanced.php:96
+msgid "Show full-screen button"
+msgstr "Ukázat tlačítko pro přehrávání videa na celou obrazovku"
+
+#: includes/shortcodes/youtube-advanced.php:97
+msgid "Setting this parameter to NO prevents the fullscreen button from displaying"
+msgstr "Nastavení hodnoty NE způsobí, že se nebude zobrazovat tlačítko \"Přehrávat na celou obrazovku\""
+
+#: includes/shortcodes/youtube-advanced.php:103
+msgid "This parameter lets you use a YouTube player that does not show a YouTube logo. Set the parameter value to YES to prevent the YouTube logo from displaying in the control bar. Note that a small YouTube text label will still display in the upper-right corner of a paused video when the user's mouse pointer hovers over the player"
+msgstr "Tento parametr dokáže přehrávat YouTube video bez YouTube loga. Nastavte hodnotu ANO a zabráníte tak zobrazování loga YouTube na ovládací liště. Malé YouTube textové logo se bude i přes to zobrazovat v pravém horním rohu při pauze, když uživatel přejede myší přes přehrávač"
+
+#: includes/shortcodes/youtube-advanced.php:108
+msgid "Dark theme"
+msgstr "Tmavý vzhled"
+
+#: includes/shortcodes/youtube-advanced.php:109
+msgid "Light theme"
+msgstr "Světlý vzhled"
+
+#: includes/shortcodes/youtube-advanced.php:113
+msgid "This parameter indicates whether the embedded player will display player controls (like a play button or volume control) within a dark or light control bar"
+msgstr "Tento parametr označuje, zda bude přehrávač zobrazovat ovládací tlačítka (jako \"přehrát\" nebo ovládání hlasitosti) v tmavé nebo světlé ovládací liště"
+
+#: includes/shortcodes/youtube-advanced.php:139
+msgid "YouTube video player with advanced settings"
+msgstr "YouTube přehrávač s pokročilým nastavením"
+
+#: includes/shortcodes/vimeo.php:15
+msgid "Url of Vimeo page with video"
+msgstr "URL Vimeo stránky s videem"
+
+#: includes/shortcodes/vimeo.php:76
+msgid "Vimeo video"
+msgstr "Video Vimeo"
+
+#: includes/shortcodes/dailymotion.php:15
+msgid "Url of Dailymotion page with video"
+msgstr "URL Dailymotion stránky s videem"
+
+#: includes/shortcodes/dailymotion.php:45
+msgid "Start the playback of the video automatically after the player load. May not work on some mobile OS versions"
+msgstr "Začít přehrávat video automaticky. Nemusí fungovat ve všech mobilních OS. "
+
+#: includes/shortcodes/dailymotion.php:50
+#: includes/shortcodes/lightbox-content.php:86
+#: includes/shortcodes/qrcode.php:81 includes/shortcodes/tooltip.php:37
+msgid "Background color"
+msgstr "Barva pozadí"
+
+#: includes/shortcodes/dailymotion.php:51
+msgid "HTML color of the background of controls elements"
+msgstr "HTML barva pozadí ovládacích prvků"
+
+#: includes/shortcodes/dailymotion.php:56
+msgid "Foreground color"
+msgstr "Barva popředí"
+
+#: includes/shortcodes/dailymotion.php:57
+msgid "HTML color of the foreground of controls elements"
+msgstr "HTML barva popředí ovládacích prvků"
+
+#: includes/shortcodes/dailymotion.php:62
+msgid "Highlight color"
+msgstr "Barva zvýraznění"
+
+#: includes/shortcodes/dailymotion.php:63
+msgid "HTML color of the controls elements' highlights"
+msgstr "HTML barva zvýrazněných ovládacích prvků"
+
+#: includes/shortcodes/dailymotion.php:68
+msgid "Show logo"
+msgstr "Ukázat logo"
+
+#: includes/shortcodes/dailymotion.php:69
+msgid "Allows to hide or show the Dailymotion logo"
+msgstr "Umožňuje skrýt či ukázat logo Dailymotion"
+
+#: includes/shortcodes/dailymotion.php:81
+msgid "Quality"
+msgstr "Kvalita"
+
+#: includes/shortcodes/dailymotion.php:82
+msgid "Determines the quality that must be played by default if available"
+msgstr "Určuje kvalitu, která bude automaticky zvolena, pokud je dostupná."
+
+#: includes/shortcodes/dailymotion.php:87
+msgid "Show related videos"
+msgstr "Ukázat související videa"
+
+#: includes/shortcodes/dailymotion.php:88
+msgid "Show related videos at the end of the video"
+msgstr "ukázat související videa na konci videa"
+
+#: includes/shortcodes/dailymotion.php:93
+msgid "Show video info"
+msgstr "Ukázat info k videu"
+
+#: includes/shortcodes/dailymotion.php:94
+msgid "Show videos info (title/author) on the start screen"
+msgstr "Ukázat info k videu (název/autor) hned na počáteční obrazovce"
+
+#: includes/shortcodes/dailymotion.php:108
+msgid "Dailymotion video"
+msgstr "Video Dailymotion"
+
+#: includes/shortcodes/audio.php:15 includes/shortcodes/video.php:15
+msgid "File"
+msgstr "Soubor"
+
+#: includes/shortcodes/audio.php:16
+msgid "Audio file url. Supported formats: mp3, ogg"
+msgstr "URL audio-souboru. Podporované formáty: mp3, ogg"
+
+#: includes/shortcodes/audio.php:22
+msgid "Player width. You can specify width in percents and player will be responsive. Example values: <b%value>200px</b>, <b%value>100&#37;</b>"
+msgstr "Šířka přehrávače. Můžete specifikovat v procentech a přehrávač bude responzivní. Např.: <b%value>200px</b>, <b%value>100&#37;</b>"
+
+#: includes/shortcodes/audio.php:28 includes/shortcodes/video.php:58
+msgid "Play file automatically when page is loaded"
+msgstr "Hrát soubor automaticky poté, co je stránka načtena"
+
+#: includes/shortcodes/audio.php:34 includes/shortcodes/video.php:64
+msgid "Repeat when playback is ended"
+msgstr "Opakovat automaticky znovu"
+
+#: includes/config/user-fields.php:12
+#: includes/shortcodes/lightbox-content.php:16
+#: includes/shortcodes/permalink.php:14
+msgid "ID"
+msgstr "ID"
+
+#: includes/shortcodes/audio.php:8
+msgid "Audio"
+msgstr "Audio"
+
+#: includes/shortcodes/permalink.php:25 includes/shortcodes/qrcode.php:69
+#: includes/shortcodes/tabs.php:110
+msgid "Link target"
+msgstr "Cíl odkazu"
+
+#: includes/config/popular-shortcodes.php:26
+#: includes/shortcodes/carousel.php:39
+#: includes/shortcodes/custom-gallery.php:32
+#: includes/shortcodes/image-carousel.php:132
+#: includes/shortcodes/lightbox.php:8 includes/shortcodes/slider.php:39
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: includes/config/user-fields.php:14 includes/shortcodes/feed.php:15
+#: includes/shortcodes/tabs.php:100
+msgid "URL"
+msgstr "URL"
+
+#: includes/shortcodes/dailymotion.php:14 includes/shortcodes/document.php:16
+#: includes/shortcodes/vimeo.php:14 includes/shortcodes/youtube-advanced.php:15
+#: includes/shortcodes/youtube.php:14
+msgid "Url"
+msgstr "Url"
+
+#: includes/shortcodes/youtube.php:8
+msgid "YouTube"
+msgstr "YouTube"
+
+#: includes/shortcodes/youtube.php:65
+msgid "YouTube video"
+msgstr "YouTube video"
+
+#: includes/shortcodes/vimeo.php:8
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: includes/shortcodes/lightbox.php:17
+msgid "Iframe"
+msgstr "Iframe"
+
+#: includes/shortcodes/dropcap.php:40
+msgid "D"
+msgstr "D"
+
+#: includes/shortcodes/dailymotion.php:8
+msgid "Dailymotion"
+msgstr "Dailymotion"
+
+#: includes/shortcodes/button.php:39
+msgid "3D"
+msgstr "3D"
+
+#: inc/core/assets.php:88
+msgid "Choose file"
+msgstr "Vybrat soubor"
+
+#: includes/config/groups.php:6
+msgid "All"
+msgstr "Vše"
+
+#: inc/core/generator.php:327 includes/config/groups.php:7
+msgid "Content"
+msgstr "Obsah"
+
+#: includes/config/groups.php:9
+msgid "Media"
+msgstr "Média"
+
+#: includes/config/groups.php:10 includes/shortcodes/custom-gallery.php:8
+msgid "Gallery"
+msgstr "Galerie"
+
+#: includes/config/borders.php:6 includes/shortcodes/carousel.php:37
+#: includes/shortcodes/custom-gallery.php:30
+#: includes/shortcodes/display-posts.php:114
+#: includes/shortcodes/image-carousel.php:87
+#: includes/shortcodes/image-carousel.php:130 includes/shortcodes/posts.php:139
+#: includes/shortcodes/qrcode.php:48 includes/shortcodes/slider.php:37
+msgid "None"
+msgstr "Žádné"
+
+#: includes/config/borders.php:7
+msgid "Solid"
+msgstr "Plná"
+
+#: includes/config/borders.php:8 includes/shortcodes/divider.php:32
+#: includes/shortcodes/expand.php:56
+msgid "Dotted"
+msgstr "Tečkovaná"
+
+#: includes/config/borders.php:9 includes/shortcodes/divider.php:33
+#: includes/shortcodes/expand.php:57
+msgid "Dashed"
+msgstr "Čárkovaná"
+
+#: includes/config/borders.php:10 includes/shortcodes/divider.php:34
+msgid "Double"
+msgstr "Dvojitá"
+
+#: includes/config/borders.php:11
+msgid "Groove"
+msgstr "Rýha"
+
+#: includes/config/borders.php:12
+msgid "Ridge"
+msgstr "Hřeben"
+
+#: includes/shortcodes/heading.php:7
+msgid "Heading"
+msgstr "Nadpis"
+
+#: includes/functions-styles.php:13 includes/functions-styles.php:16
+#: includes/functions-styles.php:19 includes/functions-styles.php:22
+#: includes/shortcodes/box.php:21 includes/shortcodes/button.php:31
+#: includes/shortcodes/divider.php:31 includes/shortcodes/dropcap.php:15
+#: includes/shortcodes/expand.php:54 includes/shortcodes/image-carousel.php:38
+#: includes/shortcodes/label.php:15 includes/shortcodes/meta.php:19
+#: includes/shortcodes/post.php:23 includes/shortcodes/user.php:21
+msgid "Default"
+msgstr "Základní"
+
+#: includes/shortcodes/box.php:28 includes/shortcodes/button.php:42
+#: includes/shortcodes/divider.php:37 includes/shortcodes/dropcap.php:21
+#: includes/shortcodes/heading.php:15 includes/shortcodes/quote.php:16
+#: includes/shortcodes/spoiler.php:26 includes/shortcodes/tabs.php:19
+msgid "Style"
+msgstr "Styl"
+
+#: includes/shortcodes/heading.php:16
+msgid "Choose style for this heading"
+msgstr "Vybrat styl pro nadpis"
+
+#: includes/shortcodes/button.php:65 includes/shortcodes/column.php:30
+#: includes/shortcodes/divider.php:60 includes/shortcodes/dropcap.php:30
+#: includes/shortcodes/heading.php:24 includes/shortcodes/qrcode.php:33
+msgid "Size"
+msgstr "Velikost"
+
+#: includes/shortcodes/heading.php:25
+msgid "Select heading size (pixels)"
+msgstr "Vybrat velikost nadpisu (v pixelech)"
+
+#: includes/shortcodes/expand.php:67 includes/shortcodes/frame.php:15
+#: includes/shortcodes/heading.php:30 includes/shortcodes/image-carousel.php:88
+#: includes/shortcodes/lightbox-content.php:75
+#: includes/shortcodes/pullquote.php:15 includes/shortcodes/qrcode.php:49
+#: includes/shortcodes/tooltip.php:27 includes/shortcodes/tooltip.php:58
+msgid "Left"
+msgstr "Nalevo"
+
+#: includes/shortcodes/carousel.php:109 includes/shortcodes/expand.php:68
+#: includes/shortcodes/frame.php:16 includes/shortcodes/heading.php:31
+#: includes/shortcodes/image-carousel.php:90
+#: includes/shortcodes/lightbox-content.php:76
+#: includes/shortcodes/qrcode.php:50 includes/shortcodes/slider.php:91
+#: includes/shortcodes/tooltip.php:59
+msgid "Center"
+msgstr "Uprostřed"
+
+#: includes/shortcodes/expand.php:69 includes/shortcodes/frame.php:17
+#: includes/shortcodes/heading.php:32 includes/shortcodes/image-carousel.php:89
+#: includes/shortcodes/lightbox-content.php:77
+#: includes/shortcodes/pullquote.php:16 includes/shortcodes/qrcode.php:51
+#: includes/shortcodes/tooltip.php:28 includes/shortcodes/tooltip.php:60
+msgid "Right"
+msgstr "napravo"
+
+#: includes/shortcodes/frame.php:20 includes/shortcodes/heading.php:35
+#: includes/shortcodes/pullquote.php:19 includes/shortcodes/qrcode.php:54
+msgid "Align"
+msgstr "zarovnání"
+
+#: includes/shortcodes/heading.php:36
+msgid "Heading text alignment"
+msgstr "zarovnání textu nadpisu"
+
+#: includes/shortcodes/divider.php:69 includes/shortcodes/heading.php:44
+#: includes/shortcodes/lightbox-content.php:60
+#: includes/shortcodes/qrcode.php:42
+msgid "Margin"
+msgstr "Okraj"
+
+#: includes/shortcodes/heading.php:45
+msgid "Bottom margin (pixels)"
+msgstr "Spodní okraj (v pixelech)"
+
+#: includes/shortcodes/frame.php:25
+msgid "Class"
+msgstr "CSS třída"
+
+#: includes/shortcodes/accordion.php:15 includes/shortcodes/animate.php:45
+#: includes/shortcodes/audio.php:38 includes/shortcodes/box.php:56
+#: includes/shortcodes/button.php:144 includes/shortcodes/carousel.php:150
+#: includes/shortcodes/column.php:41 includes/shortcodes/csv-table.php:52
+#: includes/shortcodes/custom-gallery.php:82
+#: includes/shortcodes/dailymotion.php:103
+#: includes/shortcodes/display-posts.php:223 includes/shortcodes/divider.php:74
+#: includes/shortcodes/document.php:50 includes/shortcodes/dropcap.php:35
+#: includes/shortcodes/dummy-image.php:54 includes/shortcodes/dummy-text.php:46
+#: includes/shortcodes/expand.php:89 includes/shortcodes/feed.php:39
+#: includes/shortcodes/frame.php:26 includes/shortcodes/gmap.php:58
+#: includes/shortcodes/guests.php:14 includes/shortcodes/heading.php:54
+#: includes/shortcodes/highlight.php:28
+#: includes/shortcodes/image-carousel.php:193 includes/shortcodes/label.php:28
+#: includes/shortcodes/lightbox-content.php:109
+#: includes/shortcodes/lightbox.php:38 includes/shortcodes/list.php:35
+#: includes/shortcodes/members.php:35 includes/shortcodes/menu.php:20
+#: includes/shortcodes/note.php:37 includes/shortcodes/permalink.php:39
+#: includes/shortcodes/private.php:14 includes/shortcodes/pullquote.php:24
+#: includes/shortcodes/qrcode.php:86 includes/shortcodes/quote.php:32
+#: includes/shortcodes/row.php:16 includes/shortcodes/service.php:41
+#: includes/shortcodes/siblings.php:21 includes/shortcodes/slider.php:132
+#: includes/shortcodes/spacer.php:23 includes/shortcodes/spoiler.php:63
+#: includes/shortcodes/subpages.php:27 includes/shortcodes/table.php:34
+#: includes/shortcodes/tabs.php:56 includes/shortcodes/tabs.php:115
+#: includes/shortcodes/tooltip.php:103 includes/shortcodes/video.php:68
+#: includes/shortcodes/vimeo.php:71
+#: includes/shortcodes/youtube-advanced.php:134
+#: includes/shortcodes/youtube.php:60
+msgid "Extra CSS class"
+msgstr "Speciální CSS třída"
+
+#: includes/shortcodes/heading.php:59
+msgid "Heading text"
+msgstr "Text nadpisu"
+
+#: includes/shortcodes/heading.php:60
+msgid "Styled heading"
+msgstr "Stylovaný nadpis"
+
+#: includes/config/popular-shortcodes.php:50 includes/shortcodes/tabs.php:7
+msgid "Tabs"
+msgstr "Záložky"
+
+#: includes/shortcodes/tabs.php:20
+msgid "Choose style for this tabs"
+msgstr "Vybrat styl pro tyto záložky"
+
+#: includes/shortcodes/tabs.php:28
+msgid "Active tab"
+msgstr "Aktivní záložka"
+
+#: includes/shortcodes/tabs.php:29
+msgid "Select which tab is open by default"
+msgstr "vyberte, která záložka bude otevřena defaultně"
+
+#: includes/shortcodes/tabs.php:34
+msgid "Vertical"
+msgstr "Vertikálně"
+
+#: includes/shortcodes/tabs.php:11
+msgid "Tabs container"
+msgstr "Tělo záložek"
+
+#: includes/shortcodes/tabs.php:72
+msgid "Tab"
+msgstr "Záložka"
+
+#: inc/core/assets.php:124
+msgid "Close (Esc)"
+msgstr "Zavřít (Esc)"
+
+#: inc/core/assets.php:126
+msgid "Previous (Left arrow key)"
+msgstr "Předchozí (klávesa - šipka vlevo)"
+
+#: inc/core/assets.php:127
+msgid "Next (Right arrow key)"
+msgstr "Následující (klávesa - šipka vpravo)"
+
+#: inc/core/assets.php:89
+msgid "Insert"
+msgstr "Vložit"
+
+#: inc/core/assets.php:90
+msgid "Select images"
+msgstr "Vybrat obrázky"
+
+#: inc/core/assets.php:91
+msgid "Add selected images"
+msgstr "Přidat vybrané obrázky "
+
+#: inc/core/assets.php:92
+msgid "Please enter a name for new preset"
+msgstr "Prosím vložte jméno pro nový vzor"
+
+#: inc/core/assets.php:93
+msgid "New preset"
+msgstr "Nový vzor"
+
+#: inc/core/assets.php:94
+msgid "Last used settings"
+msgstr "Naposledy použité nastavení"
+
+#: inc/core/assets.php:122
+msgid "This shortcode doesn't work in live preview. Please insert it into editor and preview on the site."
+msgstr "Tento shortkód nefunguje v náhledu. prosm vložte ho do editoru a vyzkoušejte naživo na webu."
+
+#. translators: do not translate the <b>onclick</b> part, the <b>Unsafe
+#. features</b> must be translated
+#. translators: do not translate the <b>url</b> part, the <b>Unsafe
+#. features</b> must be translated
+#: admin/class-shortcodes-ultimate-admin-settings.php:157
+#: admin/partials/notices/unsafe-features.php:18
+#: includes/shortcodes/button.php:368 includes/shortcodes/csv-table.php:83
+#: includes/shortcodes/post.php:69 includes/shortcodes/table.php:65
+#: includes/shortcodes/user.php:61
+msgid "Learn more"
+msgstr "Dozvědět se více"
+
+#: includes/shortcodes/image-carousel.php:104
+msgid "Default value"
+msgstr "Výchozí hodnota"
+
+#: inc/core/assets.php:125
+msgid "Loading..."
+msgstr "Načítání…"
+
+#: includes/shortcodes/dummy-image.php:49
+#: includes/shortcodes/youtube-advanced.php:112
+msgid "Theme"
+msgstr "Šablona"
+
+#: includes/shortcodes/tabs.php:96
+msgid "You can use unique anchor for this tab to access it with hash in page url. For example: use <b%value>Hello</b> and then navigate to url like http://example.com/page-url#Hello. This tab will be activated and scrolled in"
+msgstr "V této záložce můžete použít unikátní kotvu, k níž bude odkázáno kódem v URL. Např. sem napište <b%value>Ahoj</b> a potom použijte URL ve tvaru http://example.com/page-url#Hello. Tato záložka bude aktivována a skrolována na kotvu."
+
+#: includes/shortcodes/posts.php:16
+msgid "Relative path to the template file. Default templates placed in the plugin directory (templates folder). You can copy them under your theme directory and modify as you want. You can use following default templates that already available in the plugin directory:<br/><b%value>templates/default-loop.php</b> - posts loop<br/><b%value>templates/teaser-loop.php</b> - posts loop with thumbnail and title<br/><b%value>templates/single-post.php</b> - single post template<br/><b%value>templates/list-loop.php</b> - unordered list with posts titles"
+msgstr "Neměňte hodnotu tohoto pole, pokud nerozumíte popisu níže. Relativní cesta k souboru šablony. Základní šablony jsou umístěny v adresáři pluginu (složka templates). Můžete ji zkopírovat do adresáře své šablony a jakkoliv ji změnit. Můžete použít následující šablony, které jsou již dostupné v adresáři pluginu:<b%value>templates/default-loop.php</b> - články<br/><b%value>templates/teaser-loop.php</b> - články s náhled. obrázkem a nadpisem<br/><b%value>templates/single-post.php</b> - šablon jednotlivého článku<br/><b%value>templates/list-loop.php</b> - nečíslovaný seznam názvů článků"
+
+#: includes/shortcodes/spoiler.php:53
+msgid "You can use unique anchor for this spoiler to access it with hash in page url. For example: type here <b%value>Hello</b> and then use url like http://example.com/page-url#Hello. This spoiler will be open and scrolled in"
+msgstr "V tomto spoileru můžete použít unikátní kotvu, k níž bude odkázáno kódem v URL. Např. sem napište <b%value>Ahoj</b> a potom použijte URL ve tvaru http://example.com/page-url#Ahoj. Tento spoiler bude aktivován a skrolován na kotvu."
+
+#: includes/shortcodes/display-posts.php:69 includes/shortcodes/posts.php:67
+msgid "Terms"
+msgstr "Položky"
+
+#: includes/config/groups.php:12
+msgid "Other"
+msgstr "Ostatní"
+
+#: admin/partials/notices/rate.php:16
+msgid "Rate plugin"
+msgstr "Ohodnotit plugin"
+
+#: admin/partials/notices/rate.php:17
+msgid "Remind me later"
+msgstr "Připomenout později"
+
+#: admin/partials/notices/rate.php:5
+msgid "Vladimir Anokhin"
+msgstr "Vladimir Anokhin"
+
+#: admin/partials/help/sidebar.php:7
+msgid "Add-ons"
+msgstr "Doplňky"
+
+#: admin/partials/pro-features/generator.php:2 inc/core/generator.php:285
+msgid "Click to return to the shortcodes list"
+msgstr "Klikněte pro návrat na seznam shortkódů"
+
+#: admin/partials/pro-features/generator.php:2 inc/core/generator.php:285
+msgid "All shortcodes"
+msgstr "Všechny shortkódy"
+
+#: inc/core/generator.php:344
+msgid "Preview"
+msgstr "Náhled"
+
+#: admin/partials/help/sidebar.php:5
+msgid "Documentation"
+msgstr "Dokumentace"
+
+#: includes/config/supported-blocks.php:7
+msgid "Shortcode"
+msgstr "Shorcode"
+
+#. Plugin Name of the plugin
+#: admin/class-shortcodes-ultimate-admin-top-level.php:39
+#: admin/class-shortcodes-ultimate-admin.php:267
+#: admin/class-shortcodes-ultimate-widget.php:26
+#: admin/class-shortcodes-ultimate-widget.php:77
+#: admin/partials/help/sidebar.php:3 includes/deprecated/class-su-widget.php:15
+#: includes/deprecated/class-su-widget.php:43
+#: includes/functions-galleries.php:297
+msgid "Shortcodes Ultimate"
+msgstr "Shortcodes Ultimate"

@@ -1,0 +1,452 @@
+[19-Apr-2023 07:59:28 UTC] PHP Deprecated:  urldecode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\post.php on line 5688
+[19-Apr-2023 08:19:47 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[19-Apr-2023 11:52:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WprAddons\Modules\Forms\Widgets\wpforms_display() in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\royal-elementor-addons\modules\forms\widgets\wpr-forms.php:2413
+Stack trace:
+#0 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\royal-elementor-addons\modules\forms\widgets\wpr-forms.php(2440): WprAddons\Modules\Forms\Widgets\Wpr_Forms->render_wpforms_template(Array)
+#1 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2268): WprAddons\Modules\Forms\Widgets\Wpr_Forms->render()
+#2 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#3 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\core\base\document.php(292): Elementor\Widget_Base->render_content()
+#4 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(443): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(175): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\royal-elementor-addons\modules\forms\widgets\wpr-forms.php on line 2413
+[19-Apr-2023 11:52:16 UTC] PHP Warning:  Undefined array key "ninja_forms_templates" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\royal-elementor-addons\modules\forms\widgets\wpr-forms.php on line 2417
+[19-Apr-2023 11:52:18 UTC] PHP Warning:  Undefined array key "caldera_forms_templates" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\royal-elementor-addons\modules\forms\widgets\wpr-forms.php on line 2421
+[19-Apr-2023 12:33:49 UTC] PHP Warning:  Undefined property: WP_Ajax_Upgrader_Skin::$api in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\class-theme-upgrader.php on line 160
+[19-Apr-2023 12:34:08 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:34:08 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:34:14 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:34:14 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:34:20 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:34:20 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:34:20 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:34:20 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:34:21 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:34:45 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:34:45 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:34:45 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:34:47 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:34:47 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:34:47 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:34:49 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:34:49 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:34:49 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:34:51 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:34:51 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:34:51 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:35:05 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:05 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:05 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:35:06 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:06 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:06 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:35:20 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:20 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:28 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:28 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:33 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:33 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:39 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:39 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:39 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:39 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:41 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:41 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:44 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:44 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:45 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:45 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:57 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:35:57 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:36:15 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:36:15 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:36:20 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:36:20 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:36:50 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:36:50 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:36:50 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:36:50 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:37:10 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:37:10 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:37:21 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:37:21 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:37:28 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:37:28 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:37:28 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:37:28 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:37:32 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:37:32 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:37:33 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:37:33 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:37:40 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:37:40 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:37:42 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:37:42 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:37:42 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:37:42 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:38:01 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:38:01 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:38:05 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:38:05 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:38:09 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:38:09 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:38:12 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:38:12 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:38:20 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:38:20 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:38:20 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:38:20 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:38:36 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:38:36 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:38:37 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:38:37 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:39:37 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:39:37 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:40:46 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:40:46 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:40:49 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:40:49 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:40:49 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:40:49 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:41:38 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:41:38 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:41:50 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:41:50 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:42:36 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:42:36 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:42:36 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:42:36 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:42:43 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:42:43 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:42:47 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:42:47 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:42:48 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:42:48 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:42:55 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:42:55 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:42:58 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:42:58 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:43:01 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:43:01 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:43:01 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:43:01 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:43:01 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:43:09 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:43:09 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:43:09 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:43:16 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:43:16 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:43:16 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:43:33 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:43:33 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:43:33 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:43:37 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:43:37 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:43:37 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:43:39 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:43:39 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:43:40 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:43:40 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:43:40 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:43:55 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:43:55 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:43:59 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:43:59 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:00 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:00 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:09 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:09 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:25 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:25 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:25 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:44:27 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:27 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:28 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:44:29 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:29 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:30 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:44:30 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:30 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:30 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:44:31 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:31 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:31 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:44:33 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:33 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:34 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:44:36 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:36 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:36 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:44:38 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:38 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:38 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:44:39 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:39 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:39 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:44:41 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:41 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:41 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:44:42 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:42 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:42 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:44:45 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:45 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:45 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:44:46 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:46 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:44:46 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:45:00 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:45:00 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:45:09 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:45:09 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:45:30 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:45:30 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:45:30 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 12:45:47 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:45:47 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:45:47 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:45:47 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:45:54 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:45:54 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:46:05 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:46:05 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:46:38 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:46:38 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:46:45 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:46:45 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:46:49 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:46:49 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:46:52 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:46:52 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:46:53 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:46:53 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:46:57 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:46:57 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:46:57 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:46:57 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:47:00 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:47:00 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:47:00 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:47:00 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:47:01 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:47:01 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:47:02 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:47:02 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:47:04 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:47:04 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:47:04 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:47:04 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:47:14 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:47:14 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:47:19 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 12:47:19 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 13:01:01 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 13:01:01 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 13:01:04 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 13:01:04 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 13:01:04 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 13:01:21 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 13:01:21 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 13:01:30 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 13:01:30 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 13:01:32 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 13:01:32 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 13:01:32 UTC] PHP Warning:  Undefined array key "color" in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\customizer.php on line 2280
+[19-Apr-2023 13:01:42 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 13:01:42 UTC] PHP Warning:  Undefined variable $args in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\themes\agama\framework\admin\kirki\packages\kirki-framework\compatibility\src\Kirki.php on line 175
+[19-Apr-2023 13:45:52 UTC] PHP Warning:  require(C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php): Failed to open stream: No such file or directory in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:45:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php:53
+Stack trace:
+#0 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('elementor/eleme...')
+#2 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\plugins.php(58): activate_plugin('elementor/eleme...', 'http://ecf-2.lo...', false)
+#3 {main}
+  thrown in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:45:53 UTC] PHP Warning:  require(C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php): Failed to open stream: No such file or directory in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:45:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php:53
+Stack trace:
+#0 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('elementor/eleme...')
+#2 {main}
+  thrown in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:45:53 UTC] PHP Warning:  require(C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php): Failed to open stream: No such file or directory in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:45:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php:53
+Stack trace:
+#0 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('elementor/eleme...')
+#2 {main}
+  thrown in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:46:29 UTC] PHP Warning:  require(C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php): Failed to open stream: No such file or directory in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:46:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php:53
+Stack trace:
+#0 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(1253): include_once()
+#1 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(958): uninstall_plugin('elementor/eleme...')
+#2 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\ajax-actions.php(4701): delete_plugins(Array)
+#3 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp-hook.php(308): wp_ajax_delete_plugin('')
+#4 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#7 {main}
+  thrown in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:53:59 UTC] PHP Warning:  require(C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php): Failed to open stream: No such file or directory in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:53:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php:53
+Stack trace:
+#0 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('elementor/eleme...')
+#2 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\plugins.php(58): activate_plugin('elementor/eleme...', 'http://ecf-2.lo...', false)
+#3 {main}
+  thrown in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:54:00 UTC] PHP Warning:  require(C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php): Failed to open stream: No such file or directory in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:54:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php:53
+Stack trace:
+#0 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('elementor/eleme...')
+#2 {main}
+  thrown in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:54:00 UTC] PHP Warning:  require(C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php): Failed to open stream: No such file or directory in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:54:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php:53
+Stack trace:
+#0 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('elementor/eleme...')
+#2 {main}
+  thrown in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:54:55 UTC] PHP Warning:  require(C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php): Failed to open stream: No such file or directory in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:54:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php:53
+Stack trace:
+#0 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('elementor/eleme...')
+#2 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\plugins.php(58): activate_plugin('elementor/eleme...', 'http://ecf-2.lo...', false)
+#3 {main}
+  thrown in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:54:56 UTC] PHP Warning:  require(C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php): Failed to open stream: No such file or directory in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:54:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php:53
+Stack trace:
+#0 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('elementor/eleme...')
+#2 {main}
+  thrown in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:54:56 UTC] PHP Warning:  require(C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php): Failed to open stream: No such file or directory in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:54:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php:53
+Stack trace:
+#0 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('elementor/eleme...')
+#2 {main}
+  thrown in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:57:40 UTC] PHP Warning:  require(C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php): Failed to open stream: No such file or directory in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:57:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php:53
+Stack trace:
+#0 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('elementor/eleme...')
+#2 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\plugins.php(58): activate_plugin('elementor/eleme...', 'http://ecf-2.lo...', false)
+#3 {main}
+  thrown in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:57:41 UTC] PHP Warning:  require(C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php): Failed to open stream: No such file or directory in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:57:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php:53
+Stack trace:
+#0 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('elementor/eleme...')
+#2 {main}
+  thrown in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:57:41 UTC] PHP Warning:  require(C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php): Failed to open stream: No such file or directory in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 13:57:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor/includes/plugin.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php:53
+Stack trace:
+#0 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\plugins.php(192): plugin_sandbox_scrape('elementor/eleme...')
+#2 {main}
+  thrown in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\elementor\elementor.php on line 53
+[19-Apr-2023 16:08:17 UTC] PHP Warning:  Array to string conversion in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\edit.php on line 340
+[19-Apr-2023 16:08:17 UTC] PHP Warning:  Array to string conversion in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\edit.php on line 477
+[19-Apr-2023 16:08:38 UTC] PHP Warning:  Array to string conversion in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\edit.php on line 340
+[19-Apr-2023 16:08:38 UTC] PHP Warning:  Array to string conversion in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\edit.php on line 477
+[20-Apr-2023 08:54:10 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Stripe_Inbox_Notes" not found in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\woocommerce-gateway-stripe\woocommerce-gateway-stripe.php:724
+Stack trace:
+#0 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp-hook.php(308): wcstripe_deactivated(false)
+#1 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(814): do_action('deactivate_wooc...', false)
+#4 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\plugins.php(209): deactivate_plugins('woocommerce-gat...', false, false)
+#5 {main}
+  thrown in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\woocommerce-gateway-stripe\woocommerce-gateway-stripe.php on line 724
+[20-Apr-2023 08:54:30 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Stripe_Inbox_Notes" not found in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\woocommerce-gateway-stripe\woocommerce-gateway-stripe.php:724
+Stack trace:
+#0 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp-hook.php(308): wcstripe_deactivated(false)
+#1 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(814): do_action('deactivate_wooc...', false)
+#4 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\plugins.php(209): deactivate_plugins('woocommerce-gat...', false, false)
+#5 {main}
+  thrown in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\woocommerce-gateway-stripe\woocommerce-gateway-stripe.php on line 724
+[20-Apr-2023 08:56:43 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Stripe_Inbox_Notes" not found in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\woocommerce-gateway-stripe\woocommerce-gateway-stripe.php:724
+Stack trace:
+#0 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp-hook.php(308): wcstripe_deactivated(false)
+#1 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(814): do_action('deactivate_wooc...', false)
+#4 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\plugins.php(209): deactivate_plugins('woocommerce-gat...', false, false)
+#5 {main}
+  thrown in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\woocommerce-gateway-stripe\woocommerce-gateway-stripe.php on line 724
+[20-Apr-2023 08:57:42 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Stripe_Inbox_Notes" not found in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\woocommerce-gateway-stripe\woocommerce-gateway-stripe.php:724
+Stack trace:
+#0 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp-hook.php(308): wcstripe_deactivated(false)
+#1 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\includes\plugin.php(814): do_action('deactivate_wooc...', false)
+#4 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-admin\plugins.php(209): deactivate_plugins('woocommerce-gat...', false, false)
+#5 {main}
+  thrown in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\woocommerce-gateway-stripe\woocommerce-gateway-stripe.php on line 724
+[20-Apr-2023 09:49:10 UTC] PHP Warning:  Array to string conversion in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\general-template.php on line 2235
+[20-Apr-2023 09:49:10 UTC] PHP Fatal error:  Uncaught TypeError: substr(): Argument #1 ($string) must be of type string, array given in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\general-template.php:2281
+Stack trace:
+#0 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\general-template.php(2281): substr(Array, 0, 4)
+#1 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\blocks\calendar.php(63): get_calendar(true, false)
+#2 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp-block.php(258): render_block_core_calendar(Array, '', Object(WP_Block))
+#3 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\blocks.php(1051): WP_Block->render()
+#4 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\rest-api\endpoints\class-wp-rest-block-renderer-controller.php(190): render_block(Array)
+#5 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\rest-api\class-wp-rest-server.php(1181): WP_REST_Block_Renderer_Controller->get_item(Object(WP_REST_Request))
+#6 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\rest-api\class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/block-re...', Array, NULL)
+#7 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\rest-api\class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#8 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/block-re...')
+#9 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#10 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#11 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#12 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp.php(399): do_action_ref_array('parse_request', Array)
+#13 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp.php(780): WP->parse_request('')
+#14 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\functions.php(1334): WP->main('')
+#15 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-blog-header.php(16): wp()
+#16 C:\Users\laphr\Local Sites\ecf-2\app\public\index.php(17): require('C:\\Users\\laphr\\...')
+#17 {main}
+  thrown in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\general-template.php on line 2281
+[20-Apr-2023 13:12:38 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 958
+[20-Apr-2023 13:12:38 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 960
+[20-Apr-2023 13:12:38 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 967
+[20-Apr-2023 13:12:38 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 968
+[20-Apr-2023 13:12:38 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 971
+[21-Apr-2023 14:49:44 UTC] PHP Warning:  Array to string conversion in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\general-template.php on line 2235
+[21-Apr-2023 14:49:44 UTC] PHP Fatal error:  Uncaught TypeError: substr(): Argument #1 ($string) must be of type string, array given in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\general-template.php:2281
+Stack trace:
+#0 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\general-template.php(2281): substr(Array, 0, 4)
+#1 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\blocks\calendar.php(63): get_calendar(true, false)
+#2 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp-block.php(258): render_block_core_calendar(Array, '', Object(WP_Block))
+#3 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\blocks.php(1051): WP_Block->render()
+#4 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\rest-api\endpoints\class-wp-rest-block-renderer-controller.php(190): render_block(Array)
+#5 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\rest-api\class-wp-rest-server.php(1181): WP_REST_Block_Renderer_Controller->get_item(Object(WP_REST_Request))
+#6 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\rest-api\class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/block-re...', Array, NULL)
+#7 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\rest-api\class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#8 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\rest-api.php(410): WP_REST_Server->serve_request('/wp/v2/block-re...')
+#9 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#10 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#11 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#12 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp.php(399): do_action_ref_array('parse_request', Array)
+#13 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\class-wp.php(780): WP->parse_request('')
+#14 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\functions.php(1334): WP->main('')
+#15 C:\Users\laphr\Local Sites\ecf-2\app\public\wp-blog-header.php(16): wp()
+#16 C:\Users\laphr\Local Sites\ecf-2\app\public\index.php(17): require('C:\\Users\\laphr\\...')
+#17 {main}
+  thrown in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-includes\general-template.php on line 2281
+[22-Apr-2023 08:03:06 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\pro-elements\modules\loop-builder\module.php on line 204
+[22-Apr-2023 08:03:09 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Users\laphr\Local Sites\ecf-2\app\public\wp-content\plugins\pro-elements\modules\loop-builder\module.php on line 204
